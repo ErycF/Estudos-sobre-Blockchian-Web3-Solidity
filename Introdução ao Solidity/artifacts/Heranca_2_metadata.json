@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "Coloque_o_Nome",
+						"type": "string"
+					}
+				],
+				"name": "Busca_idade",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nome",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_idade",
+						"type": "uint256"
+					}
+				],
+				"name": "Coloque_Seu_Nome_e_idade",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Address, msg.sender, require e deploy.sol": "Heranca_2"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Address, msg.sender, require e deploy.sol": {
+			"keccak256": "0x9fc0ef40386e39088332a7a72356d61040750df034bc5766b429b47f3d70109f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7765c7ee447ccfeec033e2eb4d64cfc32912cad62e913e0f764e20dcbb296fdd",
+				"dweb:/ipfs/QmSz3DCTUXCDeCpPfxBA3wbHM4u2daJYBT2mETNTVeqp6J"
+			]
+		}
+	},
+	"version": 1
+}
