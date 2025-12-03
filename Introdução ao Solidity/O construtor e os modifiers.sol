@@ -17,7 +17,7 @@ contract SimpleCoin{
 
     /* O constructor é uma função que e execultada assim que um contrato
     e colocado na blockchain. Depois que fizer o deploy essa função constructor
-     será execultada.*/
+    será execultada.*/
 
     constructor(){
 

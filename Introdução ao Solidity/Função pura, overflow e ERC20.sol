@@ -11,5 +11,5 @@ contract Matematica{
     }
     
     /* Quando uma função tem a pure, ele nãoo ler nada da blockchain,
-    pois também, nem variãvel de estado esse contrato tem. */
+    pois também, nem variãvel de estado esse contrato tem. A pure somente soma.*/
 }
