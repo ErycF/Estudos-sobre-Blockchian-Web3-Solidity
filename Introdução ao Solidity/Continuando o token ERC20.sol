@@ -20,6 +20,8 @@ contract ERC20{
         /*require(balanco[msg.sender] >= _value);*/
         require(_spender != address(0));
         allowance [msg.sender][_spender] = _value;
+
+        emit Aprovacao(msg.sender, _spender, _value);
         return true;
     }
 
@@ -32,6 +34,20 @@ contract ERC20{
         ERY2 = 1_000_000_000 * 10 ** decimal;
         owner = msg.sender;
         balanco[owner] = 1_276;
+    }
+
+    function transferFrom(address _from, address _to, uint _value) public returns (bool successs){
+        require(allowance[_from][msg.sender] >= _value);
+        require(balanco[_from] >= _value);
+        require(_from != address(0));
+        require(_to != address(0));
+
+        balanco[_from] -= _value;
+        balanco[_to] += _value;
+        allowance[_from][msg.sender] -= _value;
+
+        emit transferencia(_from, _to, _value);
+        return true;
     }
 
     function mudarowner(address _NovoOwner)  public onlyOwner{
@@ -47,5 +63,5 @@ contract ERC20{
         emit transferencia(msg.sender, _to, _value);
         return true;
     }
-
+    /*contract address:	0x0e2ddbe260014d349e1883ffc28c079d85cba361*/
 }
