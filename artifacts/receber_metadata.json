@@ -4,7 +4,63 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "NaoFoiOUsufisiente",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "nome",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "quantotem",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_mudaNome",
+						"type": "string"
+					}
+				],
+				"name": "recebe",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retirar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +89,11 @@
 	},
 	"sources": {
 		"Introdução ao Solidity/Enviando e recebendo ETH.sol": {
-			"keccak256": "0x54ca87439fea39883edb240d002aeee591aa1171df1f15e07c818f3dd45792cf",
+			"keccak256": "0x2cdde093d73a347ee0d9da5c2738711556f3e06a2db3c9f6b8248ceb9843fbc1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c5dfb6809475cc0b97e4bc7a8f38e53c0b7e3fec548b2c30d1b270384fe40a9c",
-				"dweb:/ipfs/QmVKsXGiCYQU6vTGBceMyaABHZnp3ofNNLmRDgP1u7gMj6"
+				"bzz-raw://4982b4dac85d308e90674df100175dcb6f094389419dc0c4edfbba7500b6ba76",
+				"dweb:/ipfs/QmPrAT8v3KhuaSpYzEjw1igMbmkJ5ZRbkoHmNYazBo1wyM"
 			]
 		}
 	},
