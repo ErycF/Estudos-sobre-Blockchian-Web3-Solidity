@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Enviando e recebendo ETH.sol": "receber"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Enviando e recebendo ETH.sol": {
+			"keccak256": "0x54ca87439fea39883edb240d002aeee591aa1171df1f15e07c818f3dd45792cf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c5dfb6809475cc0b97e4bc7a8f38e53c0b7e3fec548b2c30d1b270384fe40a9c",
+				"dweb:/ipfs/QmVKsXGiCYQU6vTGBceMyaABHZnp3ofNNLmRDgP1u7gMj6"
+			]
+		}
+	},
+	"version": 1
+}
