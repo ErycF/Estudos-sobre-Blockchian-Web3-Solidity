@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/ExerciciosDeTeste/Sistema de Tokens Inteligentes com Regras de Transferência.sol": "Tokens_Inteligentes_com_Regras_de_Transferencia"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/ExerciciosDeTeste/Sistema de Tokens Inteligentes com Regras de Transferência.sol": {
+			"keccak256": "0x2a28c8dfd12c07983d0095658ab686753cfcb542eab5b77053ab9d763cce3f2e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d7a5c15e5cbdfea6ee3e3c9583c26a053f5f5a654de89bd572af332a7735f254",
+				"dweb:/ipfs/QmZ9iuxBeHmr1aH3yEfr2x2DuXNcamADJP5Ta9Q3NCFHDt"
+			]
+		}
+	},
+	"version": 1
+}

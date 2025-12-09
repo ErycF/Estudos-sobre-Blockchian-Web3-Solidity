@@ -1,0 +1,334 @@
+{
+	"id": "67582474c5bc4767cf321f9d4fb439d3",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.30",
+	"solcLongVersion": "0.8.30+commit.73712a01",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"Introdução ao Solidity/ExerciciosDeTeste/Sistema de Tokens Inteligentes com Regras de Transferência.sol": {
+				"content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.30;\r\n\r\ncontract Tokens_Inteligentes_com_Regras_de_Transferencia{\r\n    \r\n\r\n}"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"contracts": {
+			"Introdução ao Solidity/ExerciciosDeTeste/Sistema de Tokens Inteligentes com Regras de Transferência.sol": {
+				"Tokens_Inteligentes_com_Regras_de_Transferencia": {
+					"abi": [],
+					"devdoc": {
+						"kind": "dev",
+						"methods": {},
+						"version": 1
+					},
+					"evm": {
+						"assembly": "    /* \"Introdu\\xc3\\xa7\\xc3\\xa3o ao Solidity/ExerciciosDeTeste/Sistema de Tokens Inteligentes com Regras de Transfer\\xc3\\xaancia.sol\":61:129  contract Tokens_Inteligentes_com_Regras_de_Transferencia{... */\n  mstore(0x40, 0x80)\n  callvalue\n  dup1\n  iszero\n  tag_1\n  jumpi\n  revert(0x00, 0x00)\ntag_1:\n  pop\n  dataSize(sub_0)\n  dup1\n  dataOffset(sub_0)\n  0x00\n  codecopy\n  0x00\n  return\nstop\n\nsub_0: assembly {\n        /* \"Introdu\\xc3\\xa7\\xc3\\xa3o ao Solidity/ExerciciosDeTeste/Sistema de Tokens Inteligentes com Regras de Transfer\\xc3\\xaancia.sol\":61:129  contract Tokens_Inteligentes_com_Regras_de_Transferencia{... */\n      mstore(0x40, 0x80)\n      revert(0x00, 0x00)\n\n    auxdata: 0xa2646970667358221220ee00bc10ed2108b9c8c2870a1fb4508e3f990b7a6bc9fa78099c3c5dcebab5f664736f6c634300081e0033\n}\n",
+						"bytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"linkReferences": {},
+							"object": "6080604052348015600e575f5ffd5b50603e80601a5f395ff3fe60806040525f5ffdfea2646970667358221220ee00bc10ed2108b9c8c2870a1fb4508e3f990b7a6bc9fa78099c3c5dcebab5f664736f6c634300081e0033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xE JUMPI PUSH0 PUSH0 REVERT JUMPDEST POP PUSH1 0x3E DUP1 PUSH1 0x1A PUSH0 CODECOPY PUSH0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 PUSH0 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 RETURNCONTRACT 0x0 0xBC LT 0xED 0x21 ADDMOD 0xB9 0xC8 0xC2 DUP8 EXP 0x1F 0xB4 POP DUP15 EXTCODEHASH SWAP10 SIGNEXTEND PUSH27 0x6BC9FA78099C3C5DCEBAB5F664736F6C634300081E003300000000 ",
+							"sourceMap": "61:68:0:-:0;;;;;;;;;;;;;;;;;;;"
+						},
+						"deployedBytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"immutableReferences": {},
+							"linkReferences": {},
+							"object": "60806040525f5ffdfea2646970667358221220ee00bc10ed2108b9c8c2870a1fb4508e3f990b7a6bc9fa78099c3c5dcebab5f664736f6c634300081e0033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 PUSH0 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 RETURNCONTRACT 0x0 0xBC LT 0xED 0x21 ADDMOD 0xB9 0xC8 0xC2 DUP8 EXP 0x1F 0xB4 POP DUP15 EXTCODEHASH SWAP10 SIGNEXTEND PUSH27 0x6BC9FA78099C3C5DCEBAB5F664736F6C634300081E003300000000 ",
+							"sourceMap": "61:68:0:-:0;;;;;"
+						},
+						"gasEstimates": {
+							"creation": {
+								"codeDepositCost": "12400",
+								"executionCost": "64",
+								"totalCost": "12464"
+							}
+						},
+						"legacyAssembly": {
+							".code": [
+								{
+									"begin": 61,
+									"end": 129,
+									"name": "PUSH",
+									"source": 0,
+									"value": "80"
+								},
+								{
+									"begin": 61,
+									"end": 129,
+									"name": "PUSH",
+									"source": 0,
+									"value": "40"
+								},
+								{
+									"begin": 61,
+									"end": 129,
+									"name": "MSTORE",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 129,
+									"name": "CALLVALUE",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 129,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 129,
+									"name": "ISZERO",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 129,
+									"name": "PUSH [tag]",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 61,
+									"end": 129,
+									"name": "JUMPI",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 129,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 61,
+									"end": 129,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 61,
+									"end": 129,
+									"name": "REVERT",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 129,
+									"name": "tag",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 61,
+									"end": 129,
+									"name": "JUMPDEST",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 129,
+									"name": "POP",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 129,
+									"name": "PUSH #[$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 61,
+									"end": 129,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 129,
+									"name": "PUSH [$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 61,
+									"end": 129,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 61,
+									"end": 129,
+									"name": "CODECOPY",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 129,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 61,
+									"end": 129,
+									"name": "RETURN",
+									"source": 0
+								}
+							],
+							".data": {
+								"0": {
+									".auxdata": "a2646970667358221220ee00bc10ed2108b9c8c2870a1fb4508e3f990b7a6bc9fa78099c3c5dcebab5f664736f6c634300081e0033",
+									".code": [
+										{
+											"begin": 61,
+											"end": 129,
+											"name": "PUSH",
+											"source": 0,
+											"value": "80"
+										},
+										{
+											"begin": 61,
+											"end": 129,
+											"name": "PUSH",
+											"source": 0,
+											"value": "40"
+										},
+										{
+											"begin": 61,
+											"end": 129,
+											"name": "MSTORE",
+											"source": 0
+										},
+										{
+											"begin": 61,
+											"end": 129,
+											"name": "PUSH",
+											"source": 0,
+											"value": "0"
+										},
+										{
+											"begin": 61,
+											"end": 129,
+											"name": "PUSH",
+											"source": 0,
+											"value": "0"
+										},
+										{
+											"begin": 61,
+											"end": 129,
+											"name": "REVERT",
+											"source": 0
+										}
+									]
+								}
+							},
+							"sourceList": [
+								"Introdução ao Solidity/ExerciciosDeTeste/Sistema de Tokens Inteligentes com Regras de Transferência.sol",
+								"#utility.yul"
+							]
+						},
+						"methodIdentifiers": {}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.8.30+commit.73712a01\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"Introdu\\u00e7\\u00e3o ao Solidity/ExerciciosDeTeste/Sistema de Tokens Inteligentes com Regras de Transfer\\u00eancia.sol\":\"Tokens_Inteligentes_com_Regras_de_Transferencia\"},\"evmVersion\":\"prague\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"Introdu\\u00e7\\u00e3o ao Solidity/ExerciciosDeTeste/Sistema de Tokens Inteligentes com Regras de Transfer\\u00eancia.sol\":{\"keccak256\":\"0x2a28c8dfd12c07983d0095658ab686753cfcb542eab5b77053ab9d763cce3f2e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d7a5c15e5cbdfea6ee3e3c9583c26a053f5f5a654de89bd572af332a7735f254\",\"dweb:/ipfs/QmZ9iuxBeHmr1aH3yEfr2x2DuXNcamADJP5Ta9Q3NCFHDt\"]}},\"version\":1}",
+					"storageLayout": {
+						"storage": [],
+						"types": null
+					},
+					"userdoc": {
+						"kind": "user",
+						"methods": {},
+						"version": 1
+					}
+				}
+			}
+		},
+		"sources": {
+			"Introdução ao Solidity/ExerciciosDeTeste/Sistema de Tokens Inteligentes com Regras de Transferência.sol": {
+				"ast": {
+					"absolutePath": "Introdução ao Solidity/ExerciciosDeTeste/Sistema de Tokens Inteligentes com Regras de Transferência.sol",
+					"exportedSymbols": {
+						"Tokens_Inteligentes_com_Regras_de_Transferencia": [
+							2
+						]
+					},
+					"id": 3,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".30"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "33:24:0"
+						},
+						{
+							"abstract": false,
+							"baseContracts": [],
+							"canonicalName": "Tokens_Inteligentes_com_Regras_de_Transferencia",
+							"contractDependencies": [],
+							"contractKind": "contract",
+							"fullyImplemented": true,
+							"id": 2,
+							"linearizedBaseContracts": [
+								2
+							],
+							"name": "Tokens_Inteligentes_com_Regras_de_Transferencia",
+							"nameLocation": "70:47:0",
+							"nodeType": "ContractDefinition",
+							"nodes": [],
+							"scope": 3,
+							"src": "61:68:0",
+							"usedErrors": [],
+							"usedEvents": []
+						}
+					],
+					"src": "33:96:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
