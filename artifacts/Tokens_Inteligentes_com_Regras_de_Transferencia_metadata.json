@@ -4,7 +4,117 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_symbol",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "newReputation",
+						"type": "uint256"
+					}
+				],
+				"name": "ReputationChanged",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Transfer",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "UserRegistered",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_user",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "inicialbalance",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "inicialreputation",
+						"type": "uint256"
+					}
+				],
+				"name": "RegisttreUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "admin",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +143,11 @@
 	},
 	"sources": {
 		"Introdução ao Solidity/ExerciciosDeTeste/Sistema de Tokens Inteligentes com Regras de Transferência.sol": {
-			"keccak256": "0x2a28c8dfd12c07983d0095658ab686753cfcb542eab5b77053ab9d763cce3f2e",
+			"keccak256": "0x1c2bdde2169b7b8765c92f683f21aa7a9033ad05de0836de8d5a2f3cb7799408",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d7a5c15e5cbdfea6ee3e3c9583c26a053f5f5a654de89bd572af332a7735f254",
-				"dweb:/ipfs/QmZ9iuxBeHmr1aH3yEfr2x2DuXNcamADJP5Ta9Q3NCFHDt"
+				"bzz-raw://4b600070495b2712019ee7280621bd4adee2b7db9118c9e4029a2fc36e560389",
+				"dweb:/ipfs/QmVM44M6JMAtASYvozaP7drG6t7MX8o83m3YUTgFzzHtyy"
 			]
 		}
 	},
