@@ -1,0 +1,157 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_valor",
+						"type": "uint256"
+					}
+				],
+				"name": "Transfer",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_usuario",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_ponto",
+						"type": "uint256"
+					}
+				],
+				"name": "AdicionarPontos",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_usuario",
+						"type": "address"
+					}
+				],
+				"name": "BuscarPontos",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_valor",
+						"type": "uint256"
+					}
+				],
+				"name": "TransferPontos",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "sucesso",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "dobraPontos",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/ExerciciosDeTeste/Sistema de Pontos Simples.sol": "SistemaPontos"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/ExerciciosDeTeste/Sistema de Pontos Simples.sol": {
+			"keccak256": "0xa22d438ccebccfc36771d2f6d0a0372baff298ed4f3c83bc7529eafd17d8d552",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f8ccf99c3a484813390014cabcd0dc3255fd43db14c2089219d2e342377e55ea",
+				"dweb:/ipfs/QmSYfgNGeYJwKipMuuYpdoCcLi1skyEZDW9uPnXtSnt7X5"
+			]
+		}
+	},
+	"version": 1
+}
