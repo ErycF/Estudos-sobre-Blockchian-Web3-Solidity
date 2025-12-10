@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/ExerciciosDeTeste/Sistema de Recompensa.sol": "SistemaDeRecompensa"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/ExerciciosDeTeste/Sistema de Recompensa.sol": {
+			"keccak256": "0x9c90490ef9b0e925df4da9a360682a933f3f488f4124114cbecdac68487d4803",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f58361b98c1940bbe3ac0e2b78cea9472cc74ad829df394ec71a676483b2a3c6",
+				"dweb:/ipfs/QmNjHKpubZiZzthtT7xd5WNDFE6r5qhrPUi4P45K8ooZ3m"
+			]
+		}
+	},
+	"version": 1
+}

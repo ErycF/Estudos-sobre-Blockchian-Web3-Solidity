@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/ExerciciosDeTeste/Sistema de Pontos Simples.sol": "novo"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/ExerciciosDeTeste/Sistema de Pontos Simples.sol": {
+			"keccak256": "0x4a38f3f7a7bfbbfe783e89a94f41a7f09db46831ed2dc420c69525710c387f76",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a2cd420419b71297ffeeb11e318fab037b1b5f7e1d9c1ca5d9075fd9139d6b81",
+				"dweb:/ipfs/QmR4D5DznXnvPWpnVngS6XNrL7kqNp5cKVb15s3rrMK5UJ"
+			]
+		}
+	},
+	"version": 1
+}
