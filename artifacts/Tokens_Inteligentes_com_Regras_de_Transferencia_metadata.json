@@ -98,7 +98,7 @@
 				],
 				"name": "RegisttreUser",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -143,11 +143,11 @@
 	},
 	"sources": {
 		"Introdução ao Solidity/ExerciciosDeTeste/Sistema de Tokens Inteligentes com Regras de Transferência.sol": {
-			"keccak256": "0x1c2bdde2169b7b8765c92f683f21aa7a9033ad05de0836de8d5a2f3cb7799408",
+			"keccak256": "0xa11709c7ee4ad3366cca2e6718b2e15b85057a1ecf203829e494ccafb3b62acd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4b600070495b2712019ee7280621bd4adee2b7db9118c9e4029a2fc36e560389",
-				"dweb:/ipfs/QmVM44M6JMAtASYvozaP7drG6t7MX8o83m3YUTgFzzHtyy"
+				"bzz-raw://7a81848984eca19cab09baf41fc109a7c923c32c2a9352a85066524cd3c3dae6",
+				"dweb:/ipfs/QmPU6uqTF6sJeaSgciN5vMAA3PhmwEvYLi2y4ZLKHoKUQb"
 			]
 		}
 	},
