@@ -20,7 +20,7 @@ contract SistemaRecompensa{
         return (Listaconcluida.length);
     }
     function ResgataRecompensa() payable public {
-        require(pontos[msg.sender] >= 50);
+        require(pontos[msg.sender] >= 50, "Voce precisa de pelo menos 50 pontos");
         pontos[msg.sender] -= 50;
         dinheiro[msg.sender] += 1 ether;
     }

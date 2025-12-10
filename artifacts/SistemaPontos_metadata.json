@@ -145,11 +145,11 @@
 	},
 	"sources": {
 		"Introdução ao Solidity/ExerciciosDeTeste/Sistema de Pontos Simples.sol": {
-			"keccak256": "0x4a38f3f7a7bfbbfe783e89a94f41a7f09db46831ed2dc420c69525710c387f76",
+			"keccak256": "0xa22d438ccebccfc36771d2f6d0a0372baff298ed4f3c83bc7529eafd17d8d552",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a2cd420419b71297ffeeb11e318fab037b1b5f7e1d9c1ca5d9075fd9139d6b81",
-				"dweb:/ipfs/QmR4D5DznXnvPWpnVngS6XNrL7kqNp5cKVb15s3rrMK5UJ"
+				"bzz-raw://f8ccf99c3a484813390014cabcd0dc3255fd43db14c2089219d2e342377e55ea",
+				"dweb:/ipfs/QmSYfgNGeYJwKipMuuYpdoCcLi1skyEZDW9uPnXtSnt7X5"
 			]
 		}
 	},
