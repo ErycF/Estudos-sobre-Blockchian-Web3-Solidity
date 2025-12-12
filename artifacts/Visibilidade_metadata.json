@@ -4,7 +4,65 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_valorDaPrivada",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_ValorDaPublica",
+						"type": "uint256"
+					}
+				],
+				"name": "EscolhaoValor",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "FuncaoExterna",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "FuncaoPublica",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "VariavelPublica",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +91,11 @@
 	},
 	"sources": {
 		"Introdução ao Solidity/Solidity 0.8/Visibilidade.sol": {
-			"keccak256": "0xc0335b0597b1cdc11468a39a3727132496550ca0ad73afab9ee3f9f8fcc1b5f7",
+			"keccak256": "0xc0b55f20a57470650a98f8120fbdb7a48938d75073e60d8ece73ad5b4584ed72",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a0f4555c6e717c0aaae9c02e6624129ea18d5b883924185681a1cc471d2e6164",
-				"dweb:/ipfs/QmZ1kqXAJoZkPKZaB4iVb9jKb8ZaYxkBDLfEmq1odkri8P"
+				"bzz-raw://d43ebed09feb4a93cfa4eaac10eeb772236625ef3b45f99b5b1122c8bcff8e71",
+				"dweb:/ipfs/QmVHwhfcNrg1jHQCqonvnvSM32Ly9PTi7kGJaVHDkcM8iM"
 			]
 		}
 	},
