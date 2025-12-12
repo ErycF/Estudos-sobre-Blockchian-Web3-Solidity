@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Solidity 0.8/Visibilidade.sol": "Visibilidade"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Solidity 0.8/Visibilidade.sol": {
+			"keccak256": "0xc0335b0597b1cdc11468a39a3727132496550ca0ad73afab9ee3f9f8fcc1b5f7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a0f4555c6e717c0aaae9c02e6624129ea18d5b883924185681a1cc471d2e6164",
+				"dweb:/ipfs/QmZ1kqXAJoZkPKZaB4iVb9jKb8ZaYxkBDLfEmq1odkri8P"
+			]
+		}
+	},
+	"version": 1
+}

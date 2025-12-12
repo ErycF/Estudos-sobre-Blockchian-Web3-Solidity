@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_valor",
+						"type": "uint256"
+					}
+				],
+				"name": "AlteraValor",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "PegarValor",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Solidity 0.8/Funções.sol": "Funcao"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Solidity 0.8/Funções.sol": {
+			"keccak256": "0x7b99a5747c9bc6dbe8c2584e0d776caa4a78b7e4e8007f5f87600539e52a7716",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5f12b3b80b4ad6098dc8a1a69f0d5d5adf7618db81325bbd84a796f8145d40c9",
+				"dweb:/ipfs/QmVyYw1ViHk99asPgXxzdPTj6kSRDro9nzFe2V3QEcdV5r"
+			]
+		}
+	},
+	"version": 1
+}
