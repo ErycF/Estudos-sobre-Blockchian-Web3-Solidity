@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "dono",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "valorAtual",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "viraDono",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Solidity 0.8/O esquema de obelisco..sol": "Obelisco"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Solidity 0.8/O esquema de obelisco..sol": {
+			"keccak256": "0xbca8c97c663bda53a922d3c29e4b59aa6e357977744aeb46a46f1a4666fbe91b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a2cdb4806a80a400f2b55626aa36f0a1253cb6e200a2f876c2589185d2220954",
+				"dweb:/ipfs/QmVDeTEFS6AkAnP4thAyyLx4NqgwA6gjRwm3n1b1VGMyqT"
+			]
+		}
+	},
+	"version": 1
+}
