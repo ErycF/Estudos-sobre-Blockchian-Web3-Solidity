@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_peso",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "Valor",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_valor",
+						"type": "uint256"
+					}
+				],
+				"name": "alteraPeso",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Solidity 0.8/Constant e Immutable.sol": "Constante"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Solidity 0.8/Constant e Immutable.sol": {
+			"keccak256": "0xe93f8be24a68460af36bf547bce1d637697edea09ef7f0e70ed43beb744fa298",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://01cd2202c62af2826baeb11bf006ab1e22b202994002476f75f3a89da3f62aeb",
+				"dweb:/ipfs/QmUzM5CdTuVJE3RRWBdp1jtyC9qgUg9S89FGeenLYgr7id"
+			]
+		}
+	},
+	"version": 1
+}
