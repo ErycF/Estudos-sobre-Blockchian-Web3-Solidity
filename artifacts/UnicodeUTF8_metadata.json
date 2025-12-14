@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "uni",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Aprenda Solidity/Unicode e UTF-8.sol": "UnicodeUTF8"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Aprenda Solidity/Unicode e UTF-8.sol": {
+			"keccak256": "0x3008f034a12a164f7b227c411bcd33e8072eab8e2e25f41dde18f0e5b25c4717",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a313f1c91cb692e0ca395fac7e92d6c49c4f928e2c89b48d781c249c3815d532",
+				"dweb:/ipfs/QmNeThJuyGX8sXzEyFZn4RgcCrH1A4Y9a8wDy431ej1CoU"
+			]
+		}
+	},
+	"version": 1
+}
