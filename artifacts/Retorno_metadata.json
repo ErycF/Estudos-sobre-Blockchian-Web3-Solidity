@@ -1,0 +1,103 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "alteraNumero",
+						"type": "int256"
+					}
+				],
+				"name": "AlteraContagem",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "reotrnaDuasContagem3",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retornaComtagem1",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retornaComtagem2",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "retorna",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Aprenda Solidity/Retorno de funções.sol": "Retorno"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Aprenda Solidity/Retorno de funções.sol": {
+			"keccak256": "0x396bed1d4dd968e5d1b1c90edf54f729c3de45ff26e90ed5711d4232d51dedb4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://088e91c4e919c1550357d181566c13838f637d68038e67becf3f1c356022eb0f",
+				"dweb:/ipfs/QmfRqTnGf9MXHLwGDpzWCiKzqwJqVwoWNcA8pP944P92gm"
+			]
+		}
+	},
+	"version": 1
+}
