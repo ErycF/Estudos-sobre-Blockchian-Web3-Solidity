@@ -9,7 +9,12 @@
 				"inputs": [
 					{
 						"internalType": "int256",
-						"name": "alteraNumero",
+						"name": "alteraNumero1",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "alteraNumero2",
 						"type": "int256"
 					}
 				],
@@ -91,11 +96,11 @@
 	},
 	"sources": {
 		"Introdução ao Solidity/Aprenda Solidity/Retorno de funções.sol": {
-			"keccak256": "0x396bed1d4dd968e5d1b1c90edf54f729c3de45ff26e90ed5711d4232d51dedb4",
+			"keccak256": "0xb9d3778cdecac74c4b543afe55b3772b21f3ac2729834545441dd84664ed0478",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://088e91c4e919c1550357d181566c13838f637d68038e67becf3f1c356022eb0f",
-				"dweb:/ipfs/QmfRqTnGf9MXHLwGDpzWCiKzqwJqVwoWNcA8pP944P92gm"
+				"bzz-raw://652edd1c67fa02f60ef0dcfae9f9ee10c9ab4a6d68949a215def421acbb9f9a3",
+				"dweb:/ipfs/Qma2NA4Xz67Yg9ZPvw1jK1fYW2KbdHjAwe3rQkD8vThvHU"
 			]
 		}
 	},
