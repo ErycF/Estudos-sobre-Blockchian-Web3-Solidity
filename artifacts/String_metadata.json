@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nome",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_sobrenome",
+						"type": "string"
+					}
+				],
+				"name": "Nome_e_Sobrenme",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Aprenda Solidity/O tipo string.sol": "String"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Aprenda Solidity/O tipo string.sol": {
+			"keccak256": "0xb4aefa91fbe0a0b0d5671452c7221795648f1b06a9d354aa6d1f91eba5b8578c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://05c3929a1586cde1297e532fce2953ef146e5a37dc91e27e116f7123f6b2cb0a",
+				"dweb:/ipfs/QmUDowwdofamUuUZpDEkhBj336gMzAUfupgQJaesu8xPhe"
+			]
+		}
+	},
+	"version": 1
+}
