@@ -14,3 +14,13 @@ contract Balanco{
         
     }
 }
+/*
+    Chave privada => Chave pública => Endereço
+
+    Chave privada usada para movimentar a conta e assinar transações;
+    Chave pública usada para confirma transações;
+    Endereço e parainteragir com a conta.
+
+    O Endereço e gerado com o hash dos primeiros bytes da conta pública.
+    Os Contratos somente tem endereço.
+*/
