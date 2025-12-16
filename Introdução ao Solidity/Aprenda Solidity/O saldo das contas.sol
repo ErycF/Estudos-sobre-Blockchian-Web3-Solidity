@@ -24,3 +24,10 @@ contract Balanco{
     O Endereço e gerado com o hash dos primeiros bytes da conta pública.
     Os Contratos somente tem endereço.
 */
+/*
+    Como 12 PALAVRAS voê tem a SEMENTE;
+    Com a SEMENTE voê pode ter multiplas CHAVES PRIVADAS;
+    Com as CHAVEES PRIVADAS você tem CHAVES PÚBLICAS;
+    Com CAVES PÚBLICAS você tem o ENDEREÇO;
+    Dentro do ENDEREÇO tem o BALANÇO e o NONCE.
+*/
