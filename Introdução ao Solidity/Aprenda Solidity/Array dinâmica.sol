@@ -29,7 +29,7 @@ contract ArrayD{
     function getNome(uint indice) public view returns (string memory){
         return Nomes[indice];
     }
-    
+
     /*
         Adicionar elemento -> .push
         Remover elemento -> .pop

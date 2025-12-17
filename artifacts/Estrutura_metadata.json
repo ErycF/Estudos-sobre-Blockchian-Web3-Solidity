@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nome",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_Ulnome",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_idade",
+						"type": "uint256"
+					}
+				],
+				"name": "Cadastrar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "person",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "Nome",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "UltimoNOme",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Idade",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Aprenda Solidity/Estrutura.sol": "Estrutura"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Aprenda Solidity/Estrutura.sol": {
+			"keccak256": "0x786129c47ee0b7ab4f47ef2192dbbae2e529c60262dda62ab6d0fbd580e5ccbf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5455fd06a8712db6644e95c368e019338f2e156d4a2ac5d8fc1b459d9a119be9",
+				"dweb:/ipfs/QmWDYApfsApLQAg9YvjPnQR8bQ2TVxg2D94Lz9hErU1PVn"
+			]
+		}
+	},
+	"version": 1
+}
