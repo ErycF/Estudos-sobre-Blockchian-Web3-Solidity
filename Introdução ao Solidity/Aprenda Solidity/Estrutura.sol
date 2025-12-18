@@ -16,4 +16,8 @@ contract Estrutura{
         person.UltimoNOme  =  _Ulnome;
         person.Idade = _idade;        
     }
+
+    function Buscar_Pessoa() public view returns (string memory, string memory, uint) {
+        return (person.Nome, person.UltimoNOme, person.Idade);
+    }
 }

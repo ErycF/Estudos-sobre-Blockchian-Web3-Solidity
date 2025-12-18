@@ -43,7 +43,7 @@ contract ContratoMostro{
     }
 
     function Busca_Arma(uint _id) public view returns (string memory, uint){
-        Arma storage arma = armas[_id]; 
+        Arma storage arma = armas[_id];
         return (arma.nome, arma.poder);
     } 
 }
