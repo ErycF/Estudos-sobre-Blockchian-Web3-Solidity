@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "BuscarInfor",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Aprenda Solidity/O objeto block em solidity.sol": "BaseInfo"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Aprenda Solidity/O objeto block em solidity.sol": {
+			"keccak256": "0x854fe6eaa8f3ca04f7d0b8fd5f995293d14c76400629657a8ded2dfa18093617",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bef43c3d762f3d391e4be44dce59325b3a1098abd80e698ab923f18e71916d4e",
+				"dweb:/ipfs/QmakTsh6NNaNqY3kY6hfMYbELa25EoQ8VKooayqJ5wLFyd"
+			]
+		}
+	},
+	"version": 1
+}
