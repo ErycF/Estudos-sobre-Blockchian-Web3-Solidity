@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Aprenda Solidity/transfer, send e call.sol": "transfer_send_call"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Aprenda Solidity/transfer, send e call.sol": {
+			"keccak256": "0x8aecb659d802c70a1f9fc6917a7ac402332b22ec565db1303a177fddf834edfe",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0fb5e81337b48f4817bf9bab3f7ace03ac437a5f6721055005d0ee689f89a21f",
+				"dweb:/ipfs/QmSS2Na1CWdTD6BazE9WB6bsetyLG3HsZC8V8kYWQG24WK"
+			]
+		}
+	},
+	"version": 1
+}
