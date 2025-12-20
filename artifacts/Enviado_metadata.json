@@ -6,42 +6,8 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
 				"stateMutability": "payable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "enviarEtherCall",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "enviarEtherSent",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "enviarEtherTranfer",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
+				"type": "fallback"
 			}
 		],
 		"devdoc": {
@@ -57,7 +23,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Introdução ao Solidity/Aprenda Solidity/transfer, send e call.sol": "Envia"
+			"Introdução ao Solidity/Aprenda Solidity/transfer, send e call.sol": "Enviado"
 		},
 		"evmVersion": "prague",
 		"libraries": {},

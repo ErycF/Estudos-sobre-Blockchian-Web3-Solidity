@@ -1,22 +1,26 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.30;
 
+contract Enviado{
+    fallback() external payable {}
+}
+
 contract Envia {
     
     constructor() payable {
-
+        
     }
 
     function enviarEtherTranfer() public {
-        payable(0x5B38Da6a701c568545dCfcB03FcB875f56beddC4).transfer(1 ether);
+        payable(0xb31BA5cDC07A2EaFAF77c95294fd4aE27D04E9CA).transfer(1 ether);
     }
 
     function enviarEtherSent() public returns (bool){
-        return payable(0x5B38Da6a701c568545dCfcB03FcB875f56beddC4).send(1 ether);
+        return payable(0xb31BA5cDC07A2EaFAF77c95294fd4aE27D04E9CA).send(1 ether);
     }
 
     function enviarEtherCall() public returns (bool){
-        (bool retorna, ) = payable(0x5B38Da6a701c568545dCfcB03FcB875f56beddC4).call{value: 1 ether}("");
+        (bool retorna, ) = payable(0xb31BA5cDC07A2EaFAF77c95294fd4aE27D04E9CA).call{value: 1 ether}("");
         return retorna;
     }    
     /*
