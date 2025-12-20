@@ -17,6 +17,42 @@
 				],
 				"stateMutability": "pure",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "repetirBreak",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "repetirContinue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -47,11 +83,11 @@
 	},
 	"sources": {
 		"Introdução ao Solidity/Aprenda Solidity/While.sol": {
-			"keccak256": "0x4fa268d93fa81869765ed931a417213cd06c8a0a602fc4c4443d47865ec83d48",
+			"keccak256": "0x3f075109df95d4b322a5a4390a8921e74328bd7a9957993c3e79b289afc502b2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://722bf5d962ad5935758e07fdb68bdb7e87a271d174f523a1cec74e9d4ee423ce",
-				"dweb:/ipfs/QmRdbMsKESytHcMNpYzU17oQkFYeCopsTtFLZ9EY6NTqrk"
+				"bzz-raw://0a1103e7be017b7ca56807aa42855763b7536a75558db3b0cde9f9017932610c",
+				"dweb:/ipfs/QmSg1w1wputoTEb1XfQmCpfJxxRbHv5f48mpsFDtS1PqYG"
 			]
 		}
 	},
