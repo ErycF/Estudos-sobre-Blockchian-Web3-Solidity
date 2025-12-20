@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "repetir",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Aprenda Solidity/While.sol": "While"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Aprenda Solidity/While.sol": {
+			"keccak256": "0x4fa268d93fa81869765ed931a417213cd06c8a0a602fc4c4443d47865ec83d48",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://722bf5d962ad5935758e07fdb68bdb7e87a271d174f523a1cec74e9d4ee423ce",
+				"dweb:/ipfs/QmRdbMsKESytHcMNpYzU17oQkFYeCopsTtFLZ9EY6NTqrk"
+			]
+		}
+	},
+	"version": 1
+}
