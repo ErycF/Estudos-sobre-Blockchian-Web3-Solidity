@@ -15,3 +15,12 @@ contract Encode{
         return abi.decode(_valor, (uint, uint, string, bool));
     }
 }
+
+/*
+    O encode ele irar codificar o parametro que você colocar;
+    O encodeSignature ele irar codificar pore3m ele trara a assinatura.
+    E o decode ele irar fazer o inverso do encode 
+    
+    
+    
+*/
