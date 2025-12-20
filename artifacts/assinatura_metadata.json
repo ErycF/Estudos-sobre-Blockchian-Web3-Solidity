@@ -9,6 +9,35 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_y",
+						"type": "uint256"
+					}
+				],
+				"name": "Soma",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "_numero",
 						"type": "uint256"
 					}
@@ -16,6 +45,35 @@
 				"name": "alteraNumero",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "first",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "last",
+						"type": "string"
+					}
+				],
+				"name": "join",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
@@ -45,7 +103,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Introdução ao Solidity/Aprenda Solidity/Assinatura de funções 1/2.sol": "assinatura"
+			"Introdução ao Solidity/Aprenda Solidity/Assinatura de funções.sol": "assinatura"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -59,12 +117,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Introdução ao Solidity/Aprenda Solidity/Assinatura de funções 1/2.sol": {
-			"keccak256": "0x2c28ba4771562cde2016a98bb34c38071943903247a1a8cb018715488b339647",
+		"Introdução ao Solidity/Aprenda Solidity/Assinatura de funções.sol": {
+			"keccak256": "0x7fe7453375f387a21287ee542d3cb21d0b3422c1a92456f6864fa2c805e34fdd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fcf2c0a7f09b2a57163e45ee336b3286b7efb2196592bbbbb702ac278676399d",
-				"dweb:/ipfs/QmZ82Zpc6CcqP7K3ddu6XKuGmEAYuw8dpxcTdUfVfk6w4j"
+				"bzz-raw://4979101904b95da0d8659c921274d1834d51814d9177762332c9989b6a365a90",
+				"dweb:/ipfs/QmTLjr2JY5UnteSyt436VFiWxa2VvHMx1Ak4qYBoZLjJG2"
 			]
 		}
 	},
