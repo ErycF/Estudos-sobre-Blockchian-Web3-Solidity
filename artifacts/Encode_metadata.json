@@ -8,6 +8,30 @@
 			{
 				"inputs": [
 					{
+						"internalType": "string",
+						"name": "s1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "s2",
+						"type": "string"
+					}
+				],
+				"name": "concatena",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "bytes",
 						"name": "_valor",
 						"type": "bytes"
@@ -42,6 +66,19 @@
 			{
 				"inputs": [],
 				"name": "encode",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "encodePacote",
 				"outputs": [
 					{
 						"internalType": "bytes",
@@ -94,11 +131,11 @@
 	},
 	"sources": {
 		"Introdução ao Solidity/Aprenda Solidity/ABI.encode.sol": {
-			"keccak256": "0x3555e0a78f2abeffc5eb0b83f08616c389591a65da2c78cc3ed9dab632a5d48b",
+			"keccak256": "0x5b3342b2381ac84e7e33babbd877d5e52cb36e4d328ed5891ca138489ee42bc6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9b8cd00690c9b493258d8ac0b59da42021bfaa06e734f28fa93ec75f56fe3d9b",
-				"dweb:/ipfs/QmWWPXcscb57EqD5P8sVkZqYWi46EgPmCKSQQk56RpP72v"
+				"bzz-raw://963ef2f2a47c8386f00691479e62c28f1b8c22b5be3cc126a9f35e28d4da4183",
+				"dweb:/ipfs/QmbXhTZodgDwoV98GN6uA6UCyBsHNETZG9LmkTFQNomntc"
 			]
 		}
 	},
