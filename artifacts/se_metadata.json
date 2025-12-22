@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Aprenda Solidity/Conversão implícita de tipos.sol": "se"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Aprenda Solidity/Conversão implícita de tipos.sol": {
+			"keccak256": "0x0ceaf6a3025c0ee9695ccbc7139d052335a8369c6ff48cc470996d8562d2828e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b457fd1e1bf4ac75a840603331f407a09d8d4cc82453383686e49e880c08648b",
+				"dweb:/ipfs/QmazGTz5QCbLDCjjtQJLYznU5BerxCY4bNaLiVRyLQKi9k"
+			]
+		}
+	},
+	"version": 1
+}
