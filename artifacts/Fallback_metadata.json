@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Aprenda Solidity/fallback.sol": "Fallback"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Aprenda Solidity/fallback.sol": {
+			"keccak256": "0xe7afffca66c340d5e2af97f617483b7dc55b1ea00554ca96e7b6d6d986154bb3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://01592891a03af5f27ed0a1a759fc741e2f377eaf84bccc7ab12094defd18509d",
+				"dweb:/ipfs/QmUViUdmViuHDWUGvYC5Huq9dVn68UnhVRFNoQPDdbVLfm"
+			]
+		}
+	},
+	"version": 1
+}
