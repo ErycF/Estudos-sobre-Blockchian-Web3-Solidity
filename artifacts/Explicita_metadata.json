@@ -8,39 +8,14 @@
 			{
 				"inputs": [],
 				"name": "converte",
-				"outputs": [
-					{
-						"internalType": "uint8",
-						"name": "",
-						"type": "uint8"
-					}
-				],
+				"outputs": [],
 				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
 				"name": "converte2",
-				"outputs": [
-					{
-						"internalType": "uint8",
-						"name": "",
-						"type": "uint8"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "converte3",
-				"outputs": [
-					{
-						"internalType": "bytes1",
-						"name": "",
-						"type": "bytes1"
-					}
-				],
+				"outputs": [],
 				"stateMutability": "pure",
 				"type": "function"
 			}
@@ -58,7 +33,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Introdução ao Solidity/Aprenda Solidity/Conversão explícita de tipos 1.sol": "Explicita"
+			"Introdução ao Solidity/Aprenda Solidity/Conversão explícita de tipos 2.sol": "Explicita"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -72,12 +47,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Introdução ao Solidity/Aprenda Solidity/Conversão explícita de tipos 1.sol": {
-			"keccak256": "0xf9b4e3fe7bea8a06cf69b60e65f35939d78c68a75a1bce9f0eb7b7e5f508b7f9",
+		"Introdução ao Solidity/Aprenda Solidity/Conversão explícita de tipos 2.sol": {
+			"keccak256": "0xd36c34f888422e78ed17b449113562248f61ff95c3abc77668db6d7effcaddfd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8f6b18eece950cb7a7a1069fb57c61c79f4edc752a4dc76c2cd7a3308ac6f26d",
-				"dweb:/ipfs/QmZagKhrgRBUjfL9mD3NUwuQThCepSSAvMokbS6HQwEKv9"
+				"bzz-raw://4f419a64a0b6f3d85e079ac7a9a1d9b7144b9fec071da5b8c9f248fcce94a93c",
+				"dweb:/ipfs/QmbuVFABB8AE2GEbTgLXwJrUrBVyR2gcA6Ck12vM1Ebxeg"
 			]
 		}
 	},
