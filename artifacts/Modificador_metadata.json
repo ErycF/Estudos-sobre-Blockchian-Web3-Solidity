@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "ApenasAluguel",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ApenasVenda",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum Modificador.Status",
+						"name": "_status",
+						"type": "uint8"
+					}
+				],
+				"name": "Trocarstatus",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "status",
+				"outputs": [
+					{
+						"internalType": "enum Modificador.Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Aprenda Solidity/Modificadores com parâmetros.sol": "Modificador"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Aprenda Solidity/Modificadores com parâmetros.sol": {
+			"keccak256": "0x6b0be7b89aa1cdf8a28b0c413a193e061d9cf02c202ae21fac2f65bdfbb8de54",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2575ec483633a4110cce79ea07b18cffaf1a76dc90a85242c82826995b92d7fe",
+				"dweb:/ipfs/Qme1cncX3FHgQuM2zGb4BAzKf54AXuPTyFLVYrQ1y76Mwq"
+			]
+		}
+	},
+	"version": 1
+}
