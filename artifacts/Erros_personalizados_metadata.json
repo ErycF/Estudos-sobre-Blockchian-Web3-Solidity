@@ -1,0 +1,99 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "limete",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "valorRecebido",
+						"type": "uint256"
+					}
+				],
+				"name": "ValorMaior",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "limete",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_valor",
+						"type": "uint256"
+					}
+				],
+				"name": "receber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Aprenda Solidity/Erros personalizados.sol": "Erros_personalizados"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Aprenda Solidity/Erros personalizados.sol": {
+			"keccak256": "0x85f07c727b00b80694a41c28d3f45614a8b9508c41953ba76dff6941fda32fed",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c1eee7bd52cbe0846bee74b89fb0392e32a450630ca648b3266509e6914378fb",
+				"dweb:/ipfs/QmUExG4jt8gBHnnCJGyBsMYBC7KBZHHSxGDuUGXdRQ8Xt8"
+			]
+		}
+	},
+	"version": 1
+}
