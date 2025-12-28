@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_valor",
+						"type": "uint256"
+					}
+				],
+				"name": "Diminuir",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "saldo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Aprenda Solidity/assert.sol": "Assert"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Aprenda Solidity/assert.sol": {
+			"keccak256": "0xf40c3d6d09922990ddc21ee011e4957e1a1512ac8098cf32ba687fa5f92518ac",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://79b712cb2b29fa6c1c75aef744f1f1aeed58866b6d26e9a84c990dc8bee71ea8",
+				"dweb:/ipfs/QmP2q1zM3X6vxmX32yrVV4sgCpnzotFjH5jrkTeiCAZx6J"
+			]
+		}
+	},
+	"version": 1
+}
