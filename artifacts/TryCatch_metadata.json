@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "error",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "invocar",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "panic",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Aprenda Solidity/try-catch.sol": "TryCatch"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Aprenda Solidity/try-catch.sol": {
+			"keccak256": "0x94ab4ab17f5e83477e142d91ddab381c75b3cce3034b5920900f73e2e35bc775",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7b4094bd16c1bef61e98b7ddaf151c51320ad35fde5d595a64d3ed7caac03dd6",
+				"dweb:/ipfs/QmZ46y1fWWyWQ6fGFq389dVRW3obGZW6xXgmPHhcNuHgTM"
+			]
+		}
+	},
+	"version": 1
+}
