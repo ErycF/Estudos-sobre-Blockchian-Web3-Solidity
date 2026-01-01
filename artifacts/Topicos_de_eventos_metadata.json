@@ -1,0 +1,105 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "val1",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "val2",
+						"type": "uint256"
+					}
+				],
+				"name": "registre",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "val1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "val2",
+						"type": "uint256"
+					}
+				],
+				"name": "emiti",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Aprenda Solidity/Tópicos de eventos.sol": "Topicos_de_eventos"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Aprenda Solidity/Tópicos de eventos.sol": {
+			"keccak256": "0xa9db18356f1056a0420908de8e7a113bc47167a5dd2ad6f2ffdecedcf1943f64",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f226fc07cb7e0e478186d344bb286a72070b88cee84425cee61bce0dce575a4f",
+				"dweb:/ipfs/QmPPKU4xycgCu9ZrbygjDH8hvsK2ZYsKoh93LaZ2iBqtnu"
+			]
+		}
+	},
+	"version": 1
+}
