@@ -3,14 +3,36 @@ pragma solidity ^0.8.30;
 
 contract Token_ERC_20{
 
-    string name = "My Token";
-    string symbol = "MTK";
+    string private name = "My Token";
+    string private symbol = "MTK";
+    uint8 private decimals = 8;
+    uint256 private totalSupply;
+    mapping (address => uint) private balancoOf;
+    address private Owner;
+    
+    constructor() {
+        totalSupply = 1_000_000_000 * 10 ** decimals;
+        balancoOf[0x5B38Da6a701c568545dCfcB03FcB875f56beddC4] = totalSupply;
+        balancoOf[msg.sender] = totalSupply / 1_000_000;        
+    }
 
-    function GetName() public view returns (string memory){
+    function getName() public view returns (string memory){
         return name;
     }
 
-    function GetSymbol() public view returns (string memory){
+    function getSymbol() public view returns (string memory){
         return symbol;
     }
+
+    function getDecimals() public view returns (uint8){
+        return decimals;
+    }
+
+    function getTotalSupply() public view returns (uint256){
+        return totalSupply;
+    }
+
+    function getBalancoOf(address _owner) public view returns (uint){
+        return balancoOf[_owner];
+    } 
 }

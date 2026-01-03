@@ -7,7 +7,44 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "GetName",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"name": "getBalancoOf",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getDecimals",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getName",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -20,12 +57,25 @@
 			},
 			{
 				"inputs": [],
-				"name": "GetSymbol",
+				"name": "getSymbol",
 				"outputs": [
 					{
 						"internalType": "string",
 						"name": "",
 						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getTotalSupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -60,11 +110,11 @@
 	},
 	"sources": {
 		"Introdução ao Solidity/Aprenda Solidity/O Token ERC-20.sol": {
-			"keccak256": "0x5017a885cf74ac8f910dbd292ee6df150048c9b487a984664c4b3f28c84438d3",
+			"keccak256": "0x3fad0a8395b50bb58b82fb4d77b017d05d69d8279c0fd8d1817e005a8155dc3d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2e2593cf7b2971b54903e85ed3c579d66931609983f7fab579aa1255b92b2312",
-				"dweb:/ipfs/Qmbp1PHWG8ikxGN4YPP97rip8NGvWMXqDAFd4LgTFmB4To"
+				"bzz-raw://ed02d96aead9b528f2831d7a66862413e05ec5b4690dd79af00fcfc2ba2bfdc7",
+				"dweb:/ipfs/QmSCxRCkLtF2WPYetZ3D4kno9wrDDF3hD6TxUBajQHjJGG"
 			]
 		}
 	},
