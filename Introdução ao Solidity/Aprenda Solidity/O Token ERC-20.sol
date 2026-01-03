@@ -35,4 +35,13 @@ contract Token_ERC_20{
     function getBalancoOf(address _owner) public view returns (uint){
         return balancoOf[_owner];
     } 
+
+    function transfer(address _to, uint _value) public returns (bool){
+        require(balancoOf[msg.sender] >= _value, "valor baixo");
+        balancoOf[msg.sender] = balancoOf[msg.sender] - _value;
+        balancoOf[_to] = balancoOf[_to] + _value;
+
+        return true;
+    }
+    
 }

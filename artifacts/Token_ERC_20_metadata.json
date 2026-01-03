@@ -80,6 +80,30 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -110,11 +134,11 @@
 	},
 	"sources": {
 		"Introdução ao Solidity/Aprenda Solidity/O Token ERC-20.sol": {
-			"keccak256": "0x3fad0a8395b50bb58b82fb4d77b017d05d69d8279c0fd8d1817e005a8155dc3d",
+			"keccak256": "0x9ba34b7e962c85af2f74f222b151a3ada32eaecba1ff758175b77ea353a8f8c1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ed02d96aead9b528f2831d7a66862413e05ec5b4690dd79af00fcfc2ba2bfdc7",
-				"dweb:/ipfs/QmSCxRCkLtF2WPYetZ3D4kno9wrDDF3hD6TxUBajQHjJGG"
+				"bzz-raw://18c2632aa5b5de5366bdf5304dd67d8f656332fea6c59a828fca588ef2719fa3",
+				"dweb:/ipfs/Qmaw5CFm3bTLctaX7KjRjeH8dWvLPgZ9wTEhiYb4xa9hQ5"
 			]
 		}
 	},
