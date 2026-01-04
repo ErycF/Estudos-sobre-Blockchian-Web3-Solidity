@@ -11,6 +11,56 @@
 				"type": "constructor"
 			},
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_spender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "Approvel",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "Transfer",
+				"type": "event"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -211,11 +261,11 @@
 	},
 	"sources": {
 		"Introdução ao Solidity/Aprenda Solidity/O Token ERC-20.sol": {
-			"keccak256": "0xd4f1f19e7de528e6e6fede68e184b51a7bf4b43251b1722cc1ee95b12c05e78b",
+			"keccak256": "0xd760878f7906a2cb0b761b09ff473f06bd0cd1b5971f9f250d09affa6911fb90",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c819e173f63e1f4960d5b3ddbce09a8ba76e4027e559b175a841e5432d09be16",
-				"dweb:/ipfs/QmRAeyhhBY2GkdPc7i9dA7pJit48izH7Vg56wy9FpHJeM7"
+				"bzz-raw://db29914d84b91ac412d1964a7eab24b0f4ee86eca3d33acefc56ddb927f7cd2f",
+				"dweb:/ipfs/QmSTffthFmjwtpbvc4d5gh9cpUuVhi7ksynevw9RjQcsUL"
 			]
 		}
 	},

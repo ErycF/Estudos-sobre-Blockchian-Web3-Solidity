@@ -9,6 +9,9 @@ contract Token_ERC_20{
     uint256 private totalSupply;
     mapping (address => uint) private balancoOf;
     mapping (address => mapping (address => uint)) private _allowance;
+
+    event Transfer(address indexed _from, address indexed _to, uint _value);
+    event Approvel(address indexed _owner, address indexed _spender, uint _value);
     
     constructor() {
         totalSupply = 1_000_000_000 * 10 ** decimals;
@@ -41,6 +44,8 @@ contract Token_ERC_20{
         balancoOf[msg.sender] = balancoOf[msg.sender] - _value;
         balancoOf[_to] = balancoOf[_to] + _value;
 
+        emit Transfer(msg.sender, _to, _value);
+
         return true;
     }
     
@@ -53,6 +58,8 @@ contract Token_ERC_20{
         
         _allowance[_from][msg.sender] = _allowance[_from][msg.sender] - _value;
 
+        emit Transfer(_from, _to, _value);
+
         return true;
     }
 
@@ -62,7 +69,9 @@ contract Token_ERC_20{
 
     function approve(address _spender, uint _value) public returns (bool){
         _allowance[msg.sender][_spender] = _value;
-        
+
+        emit Approvel(msg.sender, _spender, _value);
+
         return true;
     }
 }
