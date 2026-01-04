@@ -8,7 +8,7 @@ contract Token_ERC_20{
     uint8 private decimals = 8;
     uint256 private totalSupply;
     mapping (address => uint) private balancoOf;
-    address private Owner;
+    mapping (address => mapping (address => uint)) private _allowance;
     
     constructor() {
         totalSupply = 1_000_000_000 * 10 ** decimals;
@@ -42,6 +42,18 @@ contract Token_ERC_20{
         balancoOf[_to] = balancoOf[_to] + _value;
 
         return true;
+    }
+    
+    function transferFrom(address _from, address _to, uint _value) public returns (bool){
+        require(balancoOf[_from] >= _value, "Valor insuficiente");
+        balancoOf[_from] = balancoOf[_from] - _value;
+        balancoOf[_to] = balancoOf[_to] + _value;
+        
+        return true;
+    }
+
+    function allowance(address _owner, address _spender) public view returns (uint){
+        return _allowance[_owner][_spender];
     }
     
 }
