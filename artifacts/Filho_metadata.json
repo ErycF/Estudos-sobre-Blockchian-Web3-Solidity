@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Valor",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "novoValor",
+						"type": "uint256"
+					}
+				],
+				"name": "setValor",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Aprenda Solidity/Relação entre contratos pai e filho.sol": "Filho"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Aprenda Solidity/Relação entre contratos pai e filho.sol": {
+			"keccak256": "0x8390ae010a43ac2c58826e20d3bd485f8db9e2b35a8d2f1d856fd24f71e6b778",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a50f8179c90eb9caa32c2341232d32dde98f594caca7fc1ce4cfed91ce5d231b",
+				"dweb:/ipfs/QmXfYdzfYjx9gVCozLP1gLmyfwAwFRkDwqP5fyC1kEPWMV"
+			]
+		}
+	},
+	"version": 1
+}
