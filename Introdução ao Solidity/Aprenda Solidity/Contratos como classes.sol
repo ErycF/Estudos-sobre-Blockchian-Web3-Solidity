@@ -5,11 +5,17 @@ contract Sum{
 
     uint[] array;
 
-    function soma(uint _x, uint _y) public returns (uint){
+    uint public x;
+
+    constructor (uint _x){
+        x = _x;
+    }
+
+    function soma( uint _y) public returns (uint){
         
-        array.push(_x + _y);
+        array.push(x + _y);
         
-        return _x + _y;
+        return x + _y;
     }
 
     function PegarArray(uint _indice) public view returns (uint){
@@ -21,10 +27,10 @@ contract Fabrica{
 
     address[] public enderecos;
 
-    function CriaNovosoma() public {
+    function CriaNovosoma(uint _x) public {
 
         // Criei uma nova instancia do contrato Sum, ultilizando new Sum()
-        Sum NovoSoma = new Sum();
+        Sum NovoSoma = new Sum(_x);
 
         // A parti dessa instancia, eu peguei o endereço e gravei na array 
         enderecos.push(address(NovoSoma));
@@ -46,3 +52,5 @@ contract Fabrica{
 
         Cada instância tem seu próprio endereço
     */
+
+// quando se tem um contrutorr e ele passa um parametro, voce tem que colocar o parametro na new Sum();

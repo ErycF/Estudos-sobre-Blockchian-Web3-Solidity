@@ -6,7 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
 				"name": "CriaNovosoma",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -60,11 +66,11 @@
 	},
 	"sources": {
 		"Introdução ao Solidity/Aprenda Solidity/Contratos como classes.sol": {
-			"keccak256": "0x36bed2e7c86f80f181641c4dd22bce3ec757d21d0bd73064eb45a5b7ce83f4e2",
+			"keccak256": "0x1d5ab5275ba206836e62ff08eee8657c9ef9e45c3cb12d316a2b7cbe977c8cfb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7706d9f2df6a335f82d3980d4d916ea224dcd0f9f3c02be7cc796b23a1a4b83f",
-				"dweb:/ipfs/QmVQ3R1tYxpfQ2WLVALdpFPSHnDXCqhChXcQensbvsiKtc"
+				"bzz-raw://acf6c68c8442983599c71f99067db8603a18271cb5701f390dbfa88f3cfab0a5",
+				"dweb:/ipfs/QmdqkGMGR1iLE3vfeyuZEwzNhjKsTXvyQVEr1AarFyzoUA"
 			]
 		}
 	},
