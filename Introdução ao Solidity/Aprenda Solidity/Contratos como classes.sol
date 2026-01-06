@@ -54,3 +54,26 @@ contract Fabrica{
     */
 
 // quando se tem um contrutorr e ele passa um parametro, voce tem que colocar o parametro na new Sum();
+
+contract Caller{
+
+    // Chama funçoes de outros contratos
+    function ExecultaSoma( address endereco, uint y) public returns (uint){
+
+        Sum instancia = Sum(endereco);
+        uint retorno = instancia.soma(y);
+        return retorno;
+    }
+
+    /*              Contratoss com Classes
+    
+        -Ultilizar uma instância de contrato: NOme([address])
+
+        -Execultar mètados de um Name([address]).metodo()
+
+    */
+
+    //  Nós devemos saber quais funções o contracto tem, para nos exercermos cada função desejada.
+    
+    //  Nós precisamos do endereco do contratoo, para  ele ser ultilizado.
+}

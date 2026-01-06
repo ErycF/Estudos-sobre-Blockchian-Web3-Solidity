@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "endereco",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "ExecultaSoma",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Aprenda Solidity/Contratos como classes.sol": "Caller"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Aprenda Solidity/Contratos como classes.sol": {
+			"keccak256": "0x79e98df17ddc1c70ddd58ea9cba2d2db82d406c151892205d6bb95b0d264820f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4e4157ebcd4f5f65e44a4d5b7d29164e52bc57bea9f579f1ccda3c8a53a55f1d",
+				"dweb:/ipfs/QmUm7PeYwBRFYbTUY6DJcehJZx4FDYwz1SBuev3QD6KxFT"
+			]
+		}
+	},
+	"version": 1
+}

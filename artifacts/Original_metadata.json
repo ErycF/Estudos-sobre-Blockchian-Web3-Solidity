@@ -9,22 +9,16 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_x",
+						"name": "x",
 						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [
+					},
 					{
 						"internalType": "uint256",
-						"name": "_indice",
+						"name": "y",
 						"type": "uint256"
 					}
 				],
-				"name": "PegarArray",
+				"name": "Calculo",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -32,31 +26,18 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_y",
+						"name": "indice",
 						"type": "uint256"
 					}
 				],
-				"name": "soma",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "x",
+				"name": "P_array",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -81,7 +62,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Introdução ao Solidity/Aprenda Solidity/Utilizando instâncias de contratos.sol": "Sum"
+			"Introdução ao Solidity/Aprenda Solidity/Utilizando instâncias de contratos.sol": "Original"
 		},
 		"evmVersion": "prague",
 		"libraries": {},

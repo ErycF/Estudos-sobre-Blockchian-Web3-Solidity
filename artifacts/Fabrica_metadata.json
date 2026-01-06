@@ -51,7 +51,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Introdução ao Solidity/Aprenda Solidity/Contratos como classes.sol": "Fabrica"
+			"Introdução ao Solidity/Aprenda Solidity/Utilizando instâncias de contratos.sol": "Fabrica"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -65,12 +65,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Introdução ao Solidity/Aprenda Solidity/Contratos como classes.sol": {
-			"keccak256": "0x1d5ab5275ba206836e62ff08eee8657c9ef9e45c3cb12d316a2b7cbe977c8cfb",
+		"Introdução ao Solidity/Aprenda Solidity/Utilizando instâncias de contratos.sol": {
+			"keccak256": "0x8a86ada483464b0d61b9074bdffb6e1cd937121deed55c0755b8047d17cb6ba7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://acf6c68c8442983599c71f99067db8603a18271cb5701f390dbfa88f3cfab0a5",
-				"dweb:/ipfs/QmdqkGMGR1iLE3vfeyuZEwzNhjKsTXvyQVEr1AarFyzoUA"
+				"bzz-raw://801c21975fab8bc6a691963be771e38c1277530686eaf0bcdf5d8bcd1d288569",
+				"dweb:/ipfs/QmWLFYbgRNL4VmzzaveGjDeCGb1sSciQzivgsAC8z1KPa9"
 			]
 		}
 	},
