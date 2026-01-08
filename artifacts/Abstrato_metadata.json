@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Aprenda Solidity/Contratos abstratos.sol": "Abstrato"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Aprenda Solidity/Contratos abstratos.sol": {
+			"keccak256": "0x1c7814887d88978fcd8f12d29d137affc332ae3786c8514a9d1bd8fbe70a38e8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e3edf9b53d00a4f11ded368b067dc74370697f6a5c5c5be30fde87634675fcbc",
+				"dweb:/ipfs/QmPZyNwUFYRFPjBsnJYSBiPbjgs9fRnLyBBHcUftv4apZf"
+			]
+		}
+	},
+	"version": 1
+}

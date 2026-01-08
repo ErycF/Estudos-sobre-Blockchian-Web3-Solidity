@@ -67,7 +67,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Introdução ao Solidity/Aprenda Solidity/Contratos abstratos.sol": "Filho"
+			"Introdução ao Solidity/Aprenda Solidity/Contratos abstratos.sol": "Abstrato_pai"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
