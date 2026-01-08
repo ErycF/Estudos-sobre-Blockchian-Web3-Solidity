@@ -6,28 +6,9 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "x",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "y",
-						"type": "uint256"
-					}
-				],
-				"name": "calculete",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
 			},
 			{
 				"inputs": [],
@@ -56,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Introdução ao Solidity/Aprenda Solidity/Herança múltipla.sol": "A"
+			"Introdução ao Solidity/Aprenda Solidity/O problema do diamante.sol": "A"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -70,12 +51,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Introdução ao Solidity/Aprenda Solidity/Herança múltipla.sol": {
-			"keccak256": "0x4f7fb704b87e0816a42b26f461568e4e46555c85bd3feab2fa39503c24e495b5",
+		"Introdução ao Solidity/Aprenda Solidity/O problema do diamante.sol": {
+			"keccak256": "0xbf03cc390c15a7d4eb6158c25e65f71fb845dcd1dc6e28b9b618e6e192023c4d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1f25afc86e6129555f6067b65ba371e37fc3c2d8080a304144b0ac7ecb5f044c",
-				"dweb:/ipfs/QmdUjGp8QeH4PMMah4KCpdcbGKE3QPH9fBTwZETNbKKkZL"
+				"bzz-raw://1a7a9cd69bc27c147793d1c0930a3644c3913a9123be7895f109ca367e706890",
+				"dweb:/ipfs/QmQTuDTwj4vJhVVNhAmVKfngYUuuhUUg81eYhruZgcYdxQ"
 			]
 		}
 	},

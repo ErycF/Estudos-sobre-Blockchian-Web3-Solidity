@@ -7,11 +7,6 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
 				"name": "val1",
 				"outputs": [
 					{
@@ -37,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Introdução ao Solidity/Aprenda Solidity/O problema do diamante.sol": "B"
+			"Introdução ao Solidity/Aprenda Solidity/O problema do diamante.sol": "Z"
 		},
 		"evmVersion": "prague",
 		"libraries": {},

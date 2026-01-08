@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Aprenda Solidity/O problema do diamante.sol": "Diamante"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Aprenda Solidity/O problema do diamante.sol": {
+			"keccak256": "0x8c87af9578c921f753aa107a6bd013bb32512c3d9d609d0f960c629ebac277b6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d9a2256fca5b4058ff79126cef75cda83108fc24b97554dfcce01361541bb7a0",
+				"dweb:/ipfs/QmUNq7sPfytpLPEF5WSBbMETVEGtDavY2nUy1BVYhZJhR6"
+			]
+		}
+	},
+	"version": 1
+}
