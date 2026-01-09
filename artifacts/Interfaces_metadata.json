@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Aprenda Solidity/Interfaces.sol": "Interfaces"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Aprenda Solidity/Interfaces.sol": {
+			"keccak256": "0xb8af3ae9f6d2b8b41437ffcc988154c66a6bfc017a9d8d94517fceeb97cb35e5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c78e8d4f08d59792804cfebd0ee374c7ec315ca048077e253cf7cc59d16880d1",
+				"dweb:/ipfs/QmYzra2CbNhkRpQ5jnyb2DMDDVjdWWsp39jspZ4sj9eRs6"
+			]
+		}
+	},
+	"version": 1
+}
