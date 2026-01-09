@@ -49,24 +49,11 @@
 		},
 		"gasEstimates": null,
 		"methodIdentifiers": {
-			"LerValor()": "05c5319b",
-			"alteraValor(uint256)": "0deb05a6"
+			"alterarValor(uint256)": "df277f21",
+			"lerValor()": "683f2709"
 		}
 	},
 	"abi": [
-		{
-			"inputs": [],
-			"name": "LerValor",
-			"outputs": [
-				{
-					"internalType": "uint256",
-					"name": "",
-					"type": "uint256"
-				}
-			],
-			"stateMutability": "view",
-			"type": "function"
-		},
 		{
 			"inputs": [
 				{
@@ -75,7 +62,7 @@
 					"type": "uint256"
 				}
 			],
-			"name": "alteraValor",
+			"name": "alterarValor",
 			"outputs": [
 				{
 					"internalType": "uint256",
@@ -84,6 +71,19 @@
 				}
 			],
 			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "lerValor",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
 			"type": "function"
 		}
 	]

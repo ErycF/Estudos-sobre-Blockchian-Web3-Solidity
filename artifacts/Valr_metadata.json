@@ -9,7 +9,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_valor",
 						"type": "uint256"
 					}
 				],
@@ -51,7 +51,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Introdução ao Solidity/Aprenda Solidity/Usando interfaces.sol": "Ivalor"
+			"Introdução ao Solidity/Aprenda Solidity/Usando interfaces.sol": "Valr"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -66,11 +66,11 @@
 	},
 	"sources": {
 		"Introdução ao Solidity/Aprenda Solidity/Usando interfaces.sol": {
-			"keccak256": "0xe0618bd3a83504df018a003e42a7a91fbc56af74214dd5f459b524c6b87eafa7",
+			"keccak256": "0x74587cfb4149b2a125d9f14d29ad55001af7e00af1f26dbab50979d7d1b0e10a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://008e474125f619b59c3b65c4c1ba48c5955be09d25ac9a6f25c80afae239e29e",
-				"dweb:/ipfs/QmWsSMw46LAKwhSQPqjFbZtGZXSSevoS36UhCM9iBTB4Di"
+				"bzz-raw://26db0a3542502acb0a9e13efbb7d4a2a4120b6e004f99ed62b21628420e491fd",
+				"dweb:/ipfs/QmYRye4i1MQKFtJQoqK72iesPsUTgn8g96h6Qbzgfz7MXN"
 			]
 		}
 	},
