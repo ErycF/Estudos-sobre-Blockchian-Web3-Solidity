@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Introdução ao Solidity/Aprenda Solidity/Fazendo upgrade de contratos.sol": "chamado"
+			"Introdução ao Solidity/Aprenda Solidity/Fazendo upgrade de contratos.sol": "caica"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"Introdução ao Solidity/Aprenda Solidity/Fazendo upgrade de contratos.sol": {
-			"keccak256": "0xb4fa43c44a492b0eecf9d15871e44127f7e5ab3dc1aa94fba1dee8da90de6c93",
+			"keccak256": "0x325e8fcf8eddfbb8bc8b7713870469cee0de98d9bd7da6f2ef44d32ed6fadf1b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ffa8836e490cd69a670d0ebe7aa7b155a7a67dbd3fd8c3594ddd9f5dbb727bc3",
-				"dweb:/ipfs/QmcJmJXotBV3hcLczaA5XkzB9hw9DTDyrtWM7QM2D4Y1mf"
+				"bzz-raw://60e229758b961ff74192e22ff6441976b7c56b2d8055c6b48756127c5e45fe3d",
+				"dweb:/ipfs/QmV3fiMxWEqAPi3pk5RiKhPrW6xYohLnGfQNBHLYkEfNQc"
 			]
 		}
 	},

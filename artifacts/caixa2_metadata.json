@@ -4,7 +4,21 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "alterarValor",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Introdução ao Solidity/Aprenda Solidity/Fazendo upgrade de contratos.sol": "chamado"
+			"Introdução ao Solidity/Aprenda Solidity/Fazendo upgrade de contratos.sol": "caixa2"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -33,11 +47,11 @@
 	},
 	"sources": {
 		"Introdução ao Solidity/Aprenda Solidity/Fazendo upgrade de contratos.sol": {
-			"keccak256": "0xb4fa43c44a492b0eecf9d15871e44127f7e5ab3dc1aa94fba1dee8da90de6c93",
+			"keccak256": "0xb0626d060482949b2012beb931fa6d119dcfc477e0196a2633d6c77c0109c8d8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ffa8836e490cd69a670d0ebe7aa7b155a7a67dbd3fd8c3594ddd9f5dbb727bc3",
-				"dweb:/ipfs/QmcJmJXotBV3hcLczaA5XkzB9hw9DTDyrtWM7QM2D4Y1mf"
+				"bzz-raw://6dc1abd31b4ba02a56100aa4aad3218186e74d9ddf917739f6055ce363d0dcf6",
+				"dweb:/ipfs/QmaANc5LYXCDub9Ww9wGiJVRRK28tjd3oHZZJi5bGKWZiB"
 			]
 		}
 	},
