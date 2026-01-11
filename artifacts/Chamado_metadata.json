@@ -66,11 +66,11 @@
 	},
 	"sources": {
 		"Introdução ao Solidity/Aprenda Solidity/O método call.sol": {
-			"keccak256": "0x7724b41759de65c41f78b4aa75614ced7266e7408caea39901d11e43285ad1dd",
+			"keccak256": "0x2881d8c02d5a15c799a6f25905814ee054319fead331799e80f323f3fb4b4564",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6f8d6285cee87b4ef92130d100e42757c480a089750e64f49ccb3d4782952807",
-				"dweb:/ipfs/QmYfnikknq5y5ZCjGGzzoz933CJJjfAR2KMjYv72D9Vau7"
+				"bzz-raw://0b1a3f61d0c6aa0ee7b9520a691f4b674ffb92ed8968d506699a9828fb58f29a",
+				"dweb:/ipfs/QmTDxioLdEkqKmcmbyL6doSumUfgGbm3PFFZdgjYx71Wqk"
 			]
 		}
 	},

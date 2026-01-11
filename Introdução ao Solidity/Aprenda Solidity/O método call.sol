@@ -31,12 +31,15 @@ contract Chamador{
 
 contract Chamador1{
 
-    address endereco = 0x1c91347f2A44538ce62453BEBd9Aa907C662b4bD;
+    address endereco2 = 0x1c91347f2A44538ce62453BEBd9Aa907C662b4bD;
 
-    function callsetValor(uint _valor) public {
+    function callsetValor(address endereco, uint _valor) public /*returns (bool, bytes memory)*/ {
 
         endereco.call(abi.encodeWithSignature("setValor(uint256)", _valor));
         // Nessa aula não vamos ver retorno
+
+        //(bool su, bytes memory retorno) = endereco.call(abi.encodeWithSignature("setValor(uint256)", _valor));
+        //return (su, retorno);
     }
 }
 /*      Método CALL
