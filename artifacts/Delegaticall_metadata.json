@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Aprenda Solidity/Delegatecall.sol": "Delegaticall"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Aprenda Solidity/Delegatecall.sol": {
+			"keccak256": "0x0b86ade92b0e3b328bfef4a9f8f8ef752626d10929ab4a893f463a4163d20d8e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5314e0db184e972e3be469087d895c5d7404fccfe065c6dab647312cbd190097",
+				"dweb:/ipfs/QmWHtj3w6cGeQbJdj23nLyokmcFF37f8KfjwsRGhniH2wT"
+			]
+		}
+	},
+	"version": 1
+}
