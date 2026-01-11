@@ -6,58 +6,26 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "payable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "valor",
+						"name": "_valor",
 						"type": "uint256"
-					},
-					{
-						"internalType": "address",
-						"name": "endereco",
-						"type": "address"
 					}
 				],
-				"name": "callgetValor",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					},
-					{
-						"internalType": "bytes",
-						"name": "",
-						"type": "bytes"
-					}
-				],
+				"name": "getValor",
+				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "endereco",
-						"type": "address"
-					}
-				],
-				"name": "callsetValor",
+				"inputs": [],
+				"name": "setValor",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "uint256",
 						"name": "",
-						"type": "bool"
-					},
-					{
-						"internalType": "bytes",
-						"name": "",
-						"type": "bytes"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -77,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Introdução ao Solidity/Aprenda Solidity/Staticcall.sol": "Extrador"
+			"Introdução ao Solidity/Aprenda Solidity/Staticcall.sol": "chamado"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
