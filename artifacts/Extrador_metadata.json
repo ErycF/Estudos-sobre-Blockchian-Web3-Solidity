@@ -6,6 +6,11 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -14,11 +19,40 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "_valor",
+						"name": "_value",
 						"type": "uint256"
 					}
 				],
-				"name": "getModificar",
+				"name": "callgetValue",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					},
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "endereco",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "callgettValue",
 				"outputs": [
 					{
 						"internalType": "bool",
@@ -42,7 +76,31 @@
 						"type": "address"
 					}
 				],
-				"name": "setModifucar",
+				"name": "callsetValue",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					},
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "endereco",
+						"type": "address"
+					}
+				],
+				"name": "enviarEther",
 				"outputs": [
 					{
 						"internalType": "bool",
@@ -72,7 +130,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Introdução ao Solidity/Aprenda Solidity/O retorno do método call.sol": "Extrador"
+			"Introdução ao Solidity/Aprenda Solidity/Ether e gás em uma call.sol": "Extrador"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -86,12 +144,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Introdução ao Solidity/Aprenda Solidity/O retorno do método call.sol": {
-			"keccak256": "0x1c35a4ad427541def41e51631cb5b8f8d938aab89c16b45e9428f60616cb80a5",
+		"Introdução ao Solidity/Aprenda Solidity/Ether e gás em uma call.sol": {
+			"keccak256": "0xbb814b8a19204f359552d67f513f689d97c404ca7c149293098fef26d88ce992",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9b9f41ee48ee55dc881c93b0e47f7b21e3d55dcb88050949ced135bba9af54d9",
-				"dweb:/ipfs/QmNaJ7RoLEd2W1Y9Gz5as5XHBcFG835RbdgFxdvfrpzYR6"
+				"bzz-raw://2d3ce91ebcf453f1a16eaa131d9816664dc24cb4d6a691ca1a9292e00689bf6e",
+				"dweb:/ipfs/QmUgc2zJya1D7sXcDChPrCjUeevvQF17DpGQvngQoK2AHg"
 			]
 		}
 	},
