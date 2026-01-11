@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "endereco",
+						"type": "address"
+					}
+				],
+				"name": "enviarEther",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Aprenda Solidity/Qual a forma recomendada de enviar Ether.sol": "EnviarEther"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Aprenda Solidity/Qual a forma recomendada de enviar Ether.sol": {
+			"keccak256": "0x864baf75508f6fdc9221c675aba420ec2a90658598ccf07ac1a22938e9613499",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6bb5c4f27a74056babef6cdd324435a3b811fcd1939a1ed4db7bb29831177044",
+				"dweb:/ipfs/QmeF4Pn3xkuLYTLSwFCists5cpDCfRDSnuSWrqeDB9YyQ2"
+			]
+		}
+	},
+	"version": 1
+}
