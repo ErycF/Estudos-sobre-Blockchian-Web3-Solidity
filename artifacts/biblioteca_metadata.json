@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Aprenda Solidity/Bibliotecas internas.sol": "biblioteca"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Aprenda Solidity/Bibliotecas internas.sol": {
+			"keccak256": "0x65a444361c27b5c5bd7982bdb0e1b9838d1051f625494101c6d9f20f4120372c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://35de3ebfff0dc210662b4435c68c638592b612809d6e42c4388f8b28c812a30c",
+				"dweb:/ipfs/QmZU4E5AA6WaJ7KfitTui8SzZ6oX5nzy5FiGQAi4SGoMqx"
+			]
+		},
+		"Introdução ao Solidity/Aprenda Solidity/libraryPotencia.sol": {
+			"keccak256": "0x9e3e4e8dbbdfd39f469cec741f8238bedbc281b758d3e243c3ed29247592862b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://716d9a8b57264a5337344883828e588104f2050d8417f7f900771bbf019193f1",
+				"dweb:/ipfs/QmYCkqMbHNwpxScqfzgeveMcPvcxEBhcoBGQHbaLkLfdwh"
+			]
+		}
+	},
+	"version": 1
+}
