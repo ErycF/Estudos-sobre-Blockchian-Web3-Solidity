@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "somaMinhaArray",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Aprenda Solidity/Estendendo o tipo array.sol": "mycontract"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Aprenda Solidity/Estendendo o tipo array.sol": {
+			"keccak256": "0xc364311e75f8dac92721718fb9569a7452c821b38bb7cea2e77ded8080087bf2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a70db27c3b39335545ecc474222aceb67f03c4ec7c6adcfbed55b9367a15af69",
+				"dweb:/ipfs/QmYcDLxrRGLZJ3fvVz5VbQSWVtmEN6GcsfW9zKMfghNMt4"
+			]
+		}
+	},
+	"version": 1
+}
