@@ -1,0 +1,107 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "Usarsoma",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "asduas",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Aprenda Solidity/como utilizar a palavra-chave using para estender a funcionalidades de tipos.sol": "MeuContrat"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Aprenda Solidity/como utilizar a palavra-chave using para estender a funcionalidades de tipos.sol": {
+			"keccak256": "0xdfea5e006c1ee1e88e58695798d880e1af6beec1e518bf62f46f5e866af872c3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://69e3ebf8375ce9cd8f03ed839f744ef5db88ea39de0f63002f2e97376a1e2885",
+				"dweb:/ipfs/Qmc5BgRND684WuQp6MgVHU8mEVSwguVZNkfpHAdr8DVKPL"
+			]
+		},
+		"Introdução ao Solidity/Aprenda Solidity/libraryPotencia.sol": {
+			"keccak256": "0x9e3e4e8dbbdfd39f469cec741f8238bedbc281b758d3e243c3ed29247592862b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://716d9a8b57264a5337344883828e588104f2050d8417f7f900771bbf019193f1",
+				"dweb:/ipfs/QmYCkqMbHNwpxScqfzgeveMcPvcxEBhcoBGQHbaLkLfdwh"
+			]
+		}
+	},
+	"version": 1
+}

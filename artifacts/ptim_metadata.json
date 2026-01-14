@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Aprenda Solidity/como utilizar a palavra-chave using para estender a funcionalidades de tipos.sol": "ptim"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Aprenda Solidity/como utilizar a palavra-chave using para estender a funcionalidades de tipos.sol": {
+			"keccak256": "0xbcfe5375df73e72cb14145b3618a4811e612a88badd0b7779655a9d6e2048683",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://13c7cda156c57022f2654d3098e3ce264225a5390a8aca0bba11272732e7daf7",
+				"dweb:/ipfs/QmZqK4qUNicjNpNkNtN7DcEy3Wn8tgcRRuDZXnBrKLs5n8"
+			]
+		}
+	},
+	"version": 1
+}
