@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Aprenda Solidity/Assinatura digital em Solidity.sol": "Assinatira_Digital"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Aprenda Solidity/Assinatura digital em Solidity.sol": {
+			"keccak256": "0x5621e6cc61f5e730a5a2286b483a55e65a9c6335ec7356635bfda4179579c0d3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f1785cacb883fe25db56d37d76f8c3466fb703ec4b1e78a95df8ac1b5fd46046",
+				"dweb:/ipfs/QmP8EGPZB1WE84ccSPeyS67dB5ZtF7wrhPuJ6TUf85RJGD"
+			]
+		}
+	},
+	"version": 1
+}
