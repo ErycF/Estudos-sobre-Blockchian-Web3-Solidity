@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "nome",
+						"type": "string"
+					}
+				],
+				"name": "hahs",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Aprenda Solidity/Funções hash em Solidity.sol": "Hahs"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Aprenda Solidity/Funções hash em Solidity.sol": {
+			"keccak256": "0xb1a091d603bf126413c93e32168bfb6795e4ebd2c1f4e1274e41d0da5ef13ad3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://63cc3753c547b171b49ec7a3c8ef127736b5e7dd516764f8a14bbb70ede716b7",
+				"dweb:/ipfs/QmaMPg2UEih72VEZfcuM4rKPUFQzRXRMa7vaTgvWdgBJue"
+			]
+		}
+	},
+	"version": 1
+}

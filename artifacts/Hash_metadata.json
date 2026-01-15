@@ -1,0 +1,103 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "mensagem",
+						"type": "string"
+					}
+				],
+				"name": "geraHashcomKeccak",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "mensagem",
+						"type": "string"
+					}
+				],
+				"name": "geraHashcomRipemd160",
+				"outputs": [
+					{
+						"internalType": "bytes20",
+						"name": "",
+						"type": "bytes20"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "mensagem",
+						"type": "string"
+					}
+				],
+				"name": "geraHashcomSha",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Aprenda Solidity/Funções hash em Solidity.sol": "Hash"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Aprenda Solidity/Funções hash em Solidity.sol": {
+			"keccak256": "0x711bb279f6404c0a8a8a7ba7a51f0de8ff6aac242d6d91cc08a87b6e98eef685",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://250e7ea4ac2d44129237ef9c214b12a4f841a3a4fbccd3c89bbb15e91368d387",
+				"dweb:/ipfs/QmZQZVzkWz2hQGzLdQjWQJxppr9Y9BfP3HsMmHMKR52NbB"
+			]
+		}
+	},
+	"version": 1
+}

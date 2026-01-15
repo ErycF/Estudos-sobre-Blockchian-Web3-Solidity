@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Aprenda Solidity/Funções hash em Solidity.sol": "vim"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Aprenda Solidity/Funções hash em Solidity.sol": {
+			"keccak256": "0xd5a9a1a9e040bcd5458d95a157ebe5ceca9307cf4c1f1c8ec2fd866f68f70d90",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d75c597ac51b44a7cbc8f2fbcf5bbbcc9f702465a565f158a9987e0af22cd63c",
+				"dweb:/ipfs/QmVWnxgapzvkeEa3grLG5uUZBwBS4ftgqR1QC1mj7iEnPe"
+			]
+		}
+	},
+	"version": 1
+}
