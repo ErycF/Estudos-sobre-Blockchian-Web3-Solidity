@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "endereco",
+						"type": "address"
+					}
+				],
+				"name": "Kill",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "mensagem",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Aprenda Solidity/Destruindo contratos.sol": "autoDestruicao"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Aprenda Solidity/Destruindo contratos.sol": {
+			"keccak256": "0x15ce3b4948068c73163534914d2ca7d8ee7543921d2520291cd9873b47109acd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ab9395a35b6a5622232b648d261e2b8f16edb800b13e627508d9d8bc2fbbae4e",
+				"dweb:/ipfs/QmahatdDcH6mzqvrhRTpJ9CAxXZ8rvFrweV9uJMXMEj96e"
+			]
+		}
+	},
+	"version": 1
+}
