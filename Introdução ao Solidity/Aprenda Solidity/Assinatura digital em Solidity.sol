@@ -1,8 +1,20 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.30;
 
-contract Assinatira_Digital{}
+contract Recover{
+    
+    function geraHashFinal(string memory mensagem) public pure returns (bytes32){
+        
+        bytes32 hashInicial = keccak256(bytes(mensagem));
 
+        return keccak256(abi.encodePacked("\x19Ethereum Signed Message:\n32", hashInicial));
+    }
+
+    function recupera(bytes32 hash, bytes1 v, bytes32 r, bytes32 s)  public pure returns (address){
+
+        return ecrecover(hash, uint8(v), r, s);
+    }
+}
 /*      Assinatira Digital
 
                                         Private Key
