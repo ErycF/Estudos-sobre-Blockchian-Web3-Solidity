@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula 4</title>
+    <script src="../node_modules/web3/dist/web3.min.js"></script>
+</head>
+<body>
+    
+    <script>
+        const web3 = new web3("HTTP://127.0.0.1:7545")
+
+        async function isMining() {
+            
+            let minerando = await web3.eth.isMining();
+            console.log("Minerando?", minerando);
+
+            let bloco = await web3.eth.getBlockNumber();
+            console.log("Bloco:", bloco);
+        }
+
+        isMining();
+
+    </script>
+
+</body>
+</html>
