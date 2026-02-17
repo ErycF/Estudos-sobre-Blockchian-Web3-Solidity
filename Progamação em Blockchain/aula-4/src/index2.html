@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 4 - Web3.js</title>
+    <script src="../node_modules/web3/dist/web3.min.js"></script>
+</head>
+<body>
+    <h1>Verficar o Status do Ganache</h1>
+
+    <script>
+        const web3 = new Web3("http://127.0.0.1:7545");
+
+        async function isMining() {
+            
+            let minerando = await web3.eth.isMining();
+            console.log("Minerando?", minerando);
+
+            let bloco = await web3.eth.getBlockNumber();
+            console.log("Bloco:", bloco)
+        }
+        isMining();
+    </script>
+</body>
+</html>
+    <!-- <script>
+        const web3 = new Web3("http://127.0.0.1:7545")
+
+        async function isMining() {
+            
+            let minerando = await web3.eth.isMining();
+            console.log("Minerando?", minerando);
+
+            let bloco = await web3.eth.getBlockNumber();
+            console.log("Bloco:", bloco);
+        }
+
+        isMining();
+
+    </script> -->

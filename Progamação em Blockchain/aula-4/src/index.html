@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>aula 4</title>
-    <script src="../node_modules/web3/dist/web3.min.js"></script>
+    <title>Aula 4 - Web3.js</title>
+    <!-- <script src="../node_modules/web3/dist/web3.min.js"></script> -->
+     <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
 </head>
 <body>
-    
-    <script>
-        const web3 = new web3("HTTP://127.0.0.1:7545")
+
+    <h1>Verificar Status do Ganache</h1>
+    <p>Abra o console do navegador (F12) para ver os resultados.</p>
+
+    <!-- <script>
+        const web3 = new Web3("http://127.0.0.1:7545")
 
         async function isMining() {
             
@@ -22,6 +26,23 @@
 
         isMining();
 
+    </script> -->
+
+    <script>
+        async function isMining() {
+            try {
+                const web3 = new Web3("http://127.0.0.1:7545");
+
+                let minerando = await web3.eth.isMining();
+
+                let bloco = await web3.eth.getBlockNumber();
+                console.log("Bloco ataul: ", bloco);
+            } catch (error){
+                console.error("Erro ao conectar com o provedor:", error);
+            }
+        }
+
+        isMining();
     </script>
 
 </body>
