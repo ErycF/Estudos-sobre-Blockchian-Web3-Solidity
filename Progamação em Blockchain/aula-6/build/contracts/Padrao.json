@@ -12,7 +12,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -38,7 +39,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"getName\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"_nome\",\"type\":\"string\"}],\"name\":\"mudaNome\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Padrao.sol\":\"Padrao\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Padrao.sol\":{\"keccak256\":\"0xa9c81aa17bc290795809b666c80c4d942db4f8e4cc743b68b5090bf3003d575d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://819779da2671cbe48ac7a0b5de7d022b83227e444246c0e6bb9fb4d8a216de5f\",\"dweb:/ipfs/QmPbBmpdargrMF3n4hz97zidWyMa9RburF1qsyaQS1nudj\"]}},\"version\":1}",
@@ -4436,9 +4438,17 @@
     "name": "solc",
     "version": "0.8.21+commit.d9974bed.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xA6bc518fA763c96a1D65F727807764C66F657960",
+      "transactionHash": "0x70140639695d906ea30a76fc705effe135038b64f60c12ffb4d3d5719af861ee"
+    }
+  },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2026-02-19T01:23:55.085Z",
+  "updatedAt": "2026-02-19T14:42:31.652Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},
