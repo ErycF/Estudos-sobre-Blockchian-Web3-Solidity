@@ -1,0 +1,4 @@
+let instance = await Padrao.deployed(0x038260e9ce0dd1297163178e5616215bb4d6faa5)
+
+await instance.getName()
+
