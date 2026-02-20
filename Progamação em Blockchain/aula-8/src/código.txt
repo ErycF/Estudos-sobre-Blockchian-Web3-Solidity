@@ -1,0 +1,10 @@
+https://abi.hashex.org/ - Com a abi podemos usar o contrato
+
+let instance = await Padrao.deployed()
+
+await instance.name()
+
+instance.addresss 
+
+abi do contrato  Padrao: [ { "inputs": [], "name": "name", "outputs": [ { "internalType": "string", "name": "", "type": "string" } ], "stateMutability": "view", "type": "function", "constant": true }, { "inputs": [ { "internalType": "string", "name": "_nome", "type": "string" } ], "name": "mudaNome", "outputs": [], "stateMutability": "nonpayable", "type": "function" }, { "inputs": [], "name": "getName", "outputs": [ { "internalType": "string", "name": "", "type": "string" } ], "stateMutability": "view", "type": "function", "constant": true } ]
+

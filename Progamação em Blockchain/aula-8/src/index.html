@@ -8,14 +8,39 @@
 </head>
 <body>
     
-    <script>
-        
-        async function name() {
-            const web3 = new Web3('HTTP://127.0.0.1:7545');
-            
-            
+    <button id="pegarNome">Pegar Nome</button>
+    <button id="setNome">Colocar Nome</button>
+    <button id="encode">Encode</button>
 
+    <script>
+       
+        const web3 = new Web3('HTTP://127.0.0.1:7545');
+            
+        let endereco = '0xa0E45E55E1898280DEaB36Af7dF52d721e83073e'; // Endereço do contrato
+        let abi = [ { "inputs": [], "name": "name", "outputs": [ { "internalType": "string", "name": "", "type": "string" } ], "stateMutability": "view", "type": "function", "constant": true }, { "inputs": [ { "internalType": "string", "name": "_nome", "type": "string" } ], "name": "mudaNome", "outputs": [], "stateMutability": "nonpayable", "type": "function" }, { "inputs": [], "name": "getName", "outputs": [ { "internalType": "string", "name": "", "type": "string" } ], "stateMutability": "view", "type": "function", "constant": true } ];
+
+        let contrato = new web3.eth.Contract(abi,endereco);
+
+        async function pegarNome() {
+
+            let nome = await contrato.methods.getName().call(); //1.Contrato, 2.methods 3.Nome da função, 4.Call, porque é uma call
+            console.log(nome);
         }
+
+        async function mudaNome() {
+            
+            let setNome = await contrato.methods.mudaNome('Tavares').send({from: '0x0f8e5438AcEbF29FBFDB9da5ec2dF83448d04809'}); // 1.Colocar no nome, 2.Passa o endereço da conta
+            console.log(setNome);
+        }
+
+        async function encode() {
+            let encode = contrato.methods.mudaNome('eryc').encodeABI();
+            console.log(encode);
+        }
+
+        document.getElementById('pegarNome').addEventListener('click', pegarNome);
+        document.getElementById('setNome').addEventListener('click', mudaNome);
+        document.getElementById('encode').addEventListener('click', encode);
 
     </script>
 
