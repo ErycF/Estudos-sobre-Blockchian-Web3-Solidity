@@ -1,0 +1,565 @@
+{
+  "contractName": "Criar",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "endereco",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "constant": true
+    },
+    {
+      "inputs": [],
+      "name": "criarPadrao",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"criarPadrao\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"endereco\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/CriarContrato.sol\":\"Criar\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/CriarContrato.sol\":{\"keccak256\":\"0x4659801c30204ba6baad32a2cabb8b93b92be7d169b2c197613b1035220bd24a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f9cd57f6106cbde953c1af24b4c8ac442eddadc2b7a798d1352ceda9e5a1acde\",\"dweb:/ipfs/Qmce5Y2ftx9EkZii8qpKVe3hghPCHtHDEbosUdH5zXtmZs\"]},\"project:/contracts/Padrao.sol\":{\"keccak256\":\"0xa9c81aa17bc290795809b666c80c4d942db4f8e4cc743b68b5090bf3003d575d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://819779da2671cbe48ac7a0b5de7d022b83227e444246c0e6bb9fb4d8a216de5f\",\"dweb:/ipfs/QmPbBmpdargrMF3n4hz97zidWyMa9RburF1qsyaQS1nudj\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5061056a806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c8063a6280cf41461003b578063f38b274314610045575b600080fd5b610043610074565b005b600054610058906001600160a01b031681565b6040516001600160a01b03909116815260200160405180910390f35b6000604051610082906100c2565b604051809103906000f08015801561009e573d6000803e3d6000fd5b50600080546001600160a01b0319166001600160a01b039290921691909117905550565b610465806100d08339019056fe608060405234801561001057600080fd5b50610445806100206000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c806306fdde031461004657806317d7de7c14610064578063e5e1bf8f1461006c575b600080fd5b61004e610081565b60405161005b91906101b1565b60405180910390f35b61004e61010f565b61007f61007a366004610215565b6101a1565b005b6000805461008e906102c6565b80601f01602080910402602001604051908101604052809291908181526020018280546100ba906102c6565b80156101075780601f106100dc57610100808354040283529160200191610107565b820191906000526020600020905b8154815290600101906020018083116100ea57829003601f168201915b505050505081565b60606000805461011e906102c6565b80601f016020809104026020016040519081016040528092919081815260200182805461014a906102c6565b80156101975780601f1061016c57610100808354040283529160200191610197565b820191906000526020600020905b81548152906001019060200180831161017a57829003601f168201915b5050505050905090565b60006101ad828261034f565b5050565b600060208083528351808285015260005b818110156101de578581018301518582016040015282016101c2565b506000604082860101526040601f19601f8301168501019250505092915050565b634e487b7160e01b600052604160045260246000fd5b60006020828403121561022757600080fd5b813567ffffffffffffffff8082111561023f57600080fd5b818401915084601f83011261025357600080fd5b813581811115610265576102656101ff565b604051601f8201601f19908116603f0116810190838211818310171561028d5761028d6101ff565b816040528281528760208487010111156102a657600080fd5b826020860160208301376000928101602001929092525095945050505050565b600181811c908216806102da57607f821691505b6020821081036102fa57634e487b7160e01b600052602260045260246000fd5b50919050565b601f82111561034a57600081815260208120601f850160051c810160208610156103275750805b601f850160051c820191505b8181101561034657828155600101610333565b5050505b505050565b815167ffffffffffffffff811115610369576103696101ff565b61037d8161037784546102c6565b84610300565b602080601f8311600181146103b2576000841561039a5750858301515b600019600386901b1c1916600185901b178555610346565b600085815260208120601f198616915b828110156103e1578886015182559484019460019091019084016103c2565b50858210156103ff5787850151600019600388901b60f8161c191681555b5050505050600190811b0190555056fea2646970667358221220443c488a01f6380a8e5d616e4ac86088b0412612331ae34050f4b3a484784b8564736f6c63430008150033a2646970667358221220319cef4c45f06aeea6cc6d0d0265318e708a6a01f149dfa9266a8a911d8b410564736f6c63430008150033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c8063a6280cf41461003b578063f38b274314610045575b600080fd5b610043610074565b005b600054610058906001600160a01b031681565b6040516001600160a01b03909116815260200160405180910390f35b6000604051610082906100c2565b604051809103906000f08015801561009e573d6000803e3d6000fd5b50600080546001600160a01b0319166001600160a01b039290921691909117905550565b610465806100d08339019056fe608060405234801561001057600080fd5b50610445806100206000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c806306fdde031461004657806317d7de7c14610064578063e5e1bf8f1461006c575b600080fd5b61004e610081565b60405161005b91906101b1565b60405180910390f35b61004e61010f565b61007f61007a366004610215565b6101a1565b005b6000805461008e906102c6565b80601f01602080910402602001604051908101604052809291908181526020018280546100ba906102c6565b80156101075780601f106100dc57610100808354040283529160200191610107565b820191906000526020600020905b8154815290600101906020018083116100ea57829003601f168201915b505050505081565b60606000805461011e906102c6565b80601f016020809104026020016040519081016040528092919081815260200182805461014a906102c6565b80156101975780601f1061016c57610100808354040283529160200191610197565b820191906000526020600020905b81548152906001019060200180831161017a57829003601f168201915b5050505050905090565b60006101ad828261034f565b5050565b600060208083528351808285015260005b818110156101de578581018301518582016040015282016101c2565b506000604082860101526040601f19601f8301168501019250505092915050565b634e487b7160e01b600052604160045260246000fd5b60006020828403121561022757600080fd5b813567ffffffffffffffff8082111561023f57600080fd5b818401915084601f83011261025357600080fd5b813581811115610265576102656101ff565b604051601f8201601f19908116603f0116810190838211818310171561028d5761028d6101ff565b816040528281528760208487010111156102a657600080fd5b826020860160208301376000928101602001929092525095945050505050565b600181811c908216806102da57607f821691505b6020821081036102fa57634e487b7160e01b600052602260045260246000fd5b50919050565b601f82111561034a57600081815260208120601f850160051c810160208610156103275750805b601f850160051c820191505b8181101561034657828155600101610333565b5050505b505050565b815167ffffffffffffffff811115610369576103696101ff565b61037d8161037784546102c6565b84610300565b602080601f8311600181146103b2576000841561039a5750858301515b600019600386901b1c1916600185901b178555610346565b600085815260208120601f198616915b828110156103e1578886015182559484019460019091019084016103c2565b50858210156103ff5787850151600019600388901b60f8161c191681555b5050505050600190811b0190555056fea2646970667358221220443c488a01f6380a8e5d616e4ac86088b0412612331ae34050f4b3a484784b8564736f6c63430008150033a2646970667358221220319cef4c45f06aeea6cc6d0d0265318e708a6a01f149dfa9266a8a911d8b410564736f6c63430008150033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [
+    {
+      "ast": {
+        "nativeSrc": "0:219:2",
+        "nodeType": "YulBlock",
+        "src": "0:219:2",
+        "statements": [
+          {
+            "nativeSrc": "6:3:2",
+            "nodeType": "YulBlock",
+            "src": "6:3:2",
+            "statements": []
+          },
+          {
+            "body": {
+              "nativeSrc": "115:102:2",
+              "nodeType": "YulBlock",
+              "src": "115:102:2",
+              "statements": [
+                {
+                  "nativeSrc": "125:26:2",
+                  "nodeType": "YulAssignment",
+                  "src": "125:26:2",
+                  "value": {
+                    "arguments": [
+                      {
+                        "name": "headStart",
+                        "nativeSrc": "137:9:2",
+                        "nodeType": "YulIdentifier",
+                        "src": "137:9:2"
+                      },
+                      {
+                        "kind": "number",
+                        "nativeSrc": "148:2:2",
+                        "nodeType": "YulLiteral",
+                        "src": "148:2:2",
+                        "type": "",
+                        "value": "32"
+                      }
+                    ],
+                    "functionName": {
+                      "name": "add",
+                      "nativeSrc": "133:3:2",
+                      "nodeType": "YulIdentifier",
+                      "src": "133:3:2"
+                    },
+                    "nativeSrc": "133:18:2",
+                    "nodeType": "YulFunctionCall",
+                    "src": "133:18:2"
+                  },
+                  "variableNames": [
+                    {
+                      "name": "tail",
+                      "nativeSrc": "125:4:2",
+                      "nodeType": "YulIdentifier",
+                      "src": "125:4:2"
+                    }
+                  ]
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "name": "headStart",
+                        "nativeSrc": "167:9:2",
+                        "nodeType": "YulIdentifier",
+                        "src": "167:9:2"
+                      },
+                      {
+                        "arguments": [
+                          {
+                            "name": "value0",
+                            "nativeSrc": "182:6:2",
+                            "nodeType": "YulIdentifier",
+                            "src": "182:6:2"
+                          },
+                          {
+                            "arguments": [
+                              {
+                                "arguments": [
+                                  {
+                                    "kind": "number",
+                                    "nativeSrc": "198:3:2",
+                                    "nodeType": "YulLiteral",
+                                    "src": "198:3:2",
+                                    "type": "",
+                                    "value": "160"
+                                  },
+                                  {
+                                    "kind": "number",
+                                    "nativeSrc": "203:1:2",
+                                    "nodeType": "YulLiteral",
+                                    "src": "203:1:2",
+                                    "type": "",
+                                    "value": "1"
+                                  }
+                                ],
+                                "functionName": {
+                                  "name": "shl",
+                                  "nativeSrc": "194:3:2",
+                                  "nodeType": "YulIdentifier",
+                                  "src": "194:3:2"
+                                },
+                                "nativeSrc": "194:11:2",
+                                "nodeType": "YulFunctionCall",
+                                "src": "194:11:2"
+                              },
+                              {
+                                "kind": "number",
+                                "nativeSrc": "207:1:2",
+                                "nodeType": "YulLiteral",
+                                "src": "207:1:2",
+                                "type": "",
+                                "value": "1"
+                              }
+                            ],
+                            "functionName": {
+                              "name": "sub",
+                              "nativeSrc": "190:3:2",
+                              "nodeType": "YulIdentifier",
+                              "src": "190:3:2"
+                            },
+                            "nativeSrc": "190:19:2",
+                            "nodeType": "YulFunctionCall",
+                            "src": "190:19:2"
+                          }
+                        ],
+                        "functionName": {
+                          "name": "and",
+                          "nativeSrc": "178:3:2",
+                          "nodeType": "YulIdentifier",
+                          "src": "178:3:2"
+                        },
+                        "nativeSrc": "178:32:2",
+                        "nodeType": "YulFunctionCall",
+                        "src": "178:32:2"
+                      }
+                    ],
+                    "functionName": {
+                      "name": "mstore",
+                      "nativeSrc": "160:6:2",
+                      "nodeType": "YulIdentifier",
+                      "src": "160:6:2"
+                    },
+                    "nativeSrc": "160:51:2",
+                    "nodeType": "YulFunctionCall",
+                    "src": "160:51:2"
+                  },
+                  "nativeSrc": "160:51:2",
+                  "nodeType": "YulExpressionStatement",
+                  "src": "160:51:2"
+                }
+              ]
+            },
+            "name": "abi_encode_tuple_t_address__to_t_address__fromStack_reversed",
+            "nativeSrc": "14:203:2",
+            "nodeType": "YulFunctionDefinition",
+            "parameters": [
+              {
+                "name": "headStart",
+                "nativeSrc": "84:9:2",
+                "nodeType": "YulTypedName",
+                "src": "84:9:2",
+                "type": ""
+              },
+              {
+                "name": "value0",
+                "nativeSrc": "95:6:2",
+                "nodeType": "YulTypedName",
+                "src": "95:6:2",
+                "type": ""
+              }
+            ],
+            "returnVariables": [
+              {
+                "name": "tail",
+                "nativeSrc": "106:4:2",
+                "nodeType": "YulTypedName",
+                "src": "106:4:2",
+                "type": ""
+              }
+            ],
+            "src": "14:203:2"
+          }
+        ]
+      },
+      "contents": "{\n    { }\n    function abi_encode_tuple_t_address__to_t_address__fromStack_reversed(headStart, value0) -> tail\n    {\n        tail := add(headStart, 32)\n        mstore(headStart, and(value0, sub(shl(160, 1), 1)))\n    }\n}",
+      "id": 2,
+      "language": "Yul",
+      "name": "#utility.yul"
+    }
+  ],
+  "sourceMap": "83:177:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "83:177:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;134:124;;;:::i;:::-;;104:23;;;;;-1:-1:-1;;;;;104:23:0;;;;;;-1:-1:-1;;;;;178:32:2;;;160:51;;148:2;133:18;104:23:0;;;;;;;134:124;175:19;197:12;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;219:8:0;:32;;-1:-1:-1;;;;;;219:32:0;-1:-1:-1;;;;;219:32:0;;;;;;;;;;-1:-1:-1;134:124:0:o;-1:-1:-1:-;;;;;;;;:::o",
+  "source": "// SPDX-License-Identifier: MIT \npragma solidity ^0.8.21;\n\nimport \"./Padrao.sol\";\n\ncontract Criar{\n\n    address public endereco;\n\n    function criarPadrao() public {\n\n        Padrao novoContrato = new Padrao();\n        endereco = address(novoContrato);\n    }\n}",
+  "sourcePath": "/home/eryc/Documentos/GitHub/Estudos-sobre-Blockchian-Web3-Solidity/Progamação em Blockchain/aula-7/contracts/CriarContrato.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/CriarContrato.sol",
+    "exportedSymbols": {
+      "Criar": [
+        24
+      ],
+      "Padrao": [
+        47
+      ]
+    },
+    "id": 25,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".21"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:24:0"
+      },
+      {
+        "absolutePath": "project:/contracts/Padrao.sol",
+        "file": "./Padrao.sol",
+        "id": 2,
+        "nameLocation": "-1:-1:-1",
+        "nodeType": "ImportDirective",
+        "scope": 25,
+        "sourceUnit": 48,
+        "src": "59:22:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Criar",
+        "contractDependencies": [
+          47
+        ],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 24,
+        "linearizedBaseContracts": [
+          24
+        ],
+        "name": "Criar",
+        "nameLocation": "92:5:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "functionSelector": "f38b2743",
+            "id": 4,
+            "mutability": "mutable",
+            "name": "endereco",
+            "nameLocation": "119:8:0",
+            "nodeType": "VariableDeclaration",
+            "scope": 24,
+            "src": "104:23:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 3,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "104:7:0",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 22,
+              "nodeType": "Block",
+              "src": "164:94:0",
+              "statements": [
+                {
+                  "assignments": [
+                    9
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 9,
+                      "mutability": "mutable",
+                      "name": "novoContrato",
+                      "nameLocation": "182:12:0",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 22,
+                      "src": "175:19:0",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_Padrao_$47",
+                        "typeString": "contract Padrao"
+                      },
+                      "typeName": {
+                        "id": 8,
+                        "nodeType": "UserDefinedTypeName",
+                        "pathNode": {
+                          "id": 7,
+                          "name": "Padrao",
+                          "nameLocations": [
+                            "175:6:0"
+                          ],
+                          "nodeType": "IdentifierPath",
+                          "referencedDeclaration": 47,
+                          "src": "175:6:0"
+                        },
+                        "referencedDeclaration": 47,
+                        "src": "175:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Padrao_$47",
+                          "typeString": "contract Padrao"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 14,
+                  "initialValue": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "id": 12,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "NewExpression",
+                      "src": "197:10:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_Padrao_$47_$",
+                        "typeString": "function () returns (contract Padrao)"
+                      },
+                      "typeName": {
+                        "id": 11,
+                        "nodeType": "UserDefinedTypeName",
+                        "pathNode": {
+                          "id": 10,
+                          "name": "Padrao",
+                          "nameLocations": [
+                            "201:6:0"
+                          ],
+                          "nodeType": "IdentifierPath",
+                          "referencedDeclaration": 47,
+                          "src": "201:6:0"
+                        },
+                        "referencedDeclaration": 47,
+                        "src": "201:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Padrao_$47",
+                          "typeString": "contract Padrao"
+                        }
+                      }
+                    },
+                    "id": 13,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "197:12:0",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_Padrao_$47",
+                      "typeString": "contract Padrao"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "175:34:0"
+                },
+                {
+                  "expression": {
+                    "id": 20,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 15,
+                      "name": "endereco",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 4,
+                      "src": "219:8:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "arguments": [
+                        {
+                          "id": 18,
+                          "name": "novoContrato",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 9,
+                          "src": "238:12:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_Padrao_$47",
+                            "typeString": "contract Padrao"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_contract$_Padrao_$47",
+                            "typeString": "contract Padrao"
+                          }
+                        ],
+                        "id": 17,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "lValueRequested": false,
+                        "nodeType": "ElementaryTypeNameExpression",
+                        "src": "230:7:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_address_$",
+                          "typeString": "type(address)"
+                        },
+                        "typeName": {
+                          "id": 16,
+                          "name": "address",
+                          "nodeType": "ElementaryTypeName",
+                          "src": "230:7:0",
+                          "typeDescriptions": {}
+                        }
+                      },
+                      "id": 19,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "nameLocations": [],
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "230:21:0",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "src": "219:32:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "id": 21,
+                  "nodeType": "ExpressionStatement",
+                  "src": "219:32:0"
+                }
+              ]
+            },
+            "functionSelector": "a6280cf4",
+            "id": 23,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "criarPadrao",
+            "nameLocation": "143:11:0",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 5,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "154:2:0"
+            },
+            "returnParameters": {
+              "id": 6,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "164:0:0"
+            },
+            "scope": 24,
+            "src": "134:124:0",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 25,
+        "src": "83:177:0",
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ],
+    "src": "33:227:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.21+commit.d9974bed.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x80cE96508269116466CcC709b63Ab567BC0881b0",
+      "transactionHash": "0x4a70e2880a1715a4fdc84813e932892d69a198b45882979adc7bf36fe26c9456"
+    }
+  },
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2026-02-19T23:53:02.265Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
