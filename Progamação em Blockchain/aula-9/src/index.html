@@ -8,22 +8,40 @@
 </head>
 <body>
     <button id="run">Run</button>
+    <button id="run2">Run 2</button>
     <script>
         const web3 = new Web3('HTTP://127.0.0.1:7545');
 
         let abi = [ { "inputs": [], "stateMutability": "nonpayable", "type": "constructor" }, { "inputs": [], "name": "endereco", "outputs": [ { "internalType": "address", "name": "", "type": "address" } ], "stateMutability": "view", "type": "function" }, { "inputs": [], "name": "recebeDineiro", "outputs": [], "stateMutability": "payable", "type": "function" } ];
-        let endereco = '0xfa8ebd62aeafffb231c29c94ca319575dba70751';
+        let endereco = '0x9f13e9878A3D2Ced1A830CDEbaa959A28e1223C2';
         
-        const contrato = await web3.eth.Contract(abi,endereco);
+        const contrato = web3.eth.Contract(abi,endereco);
 
         async function run() {
-            
-            let receipt = await contrato.methods.recebeDineiro().send({from: '0xA3c0176d7238D5EbfC89cF659371AC5174aEdE7c', value: 17562100000000000000 });
+
+            let receipt = await contrato.methods.recebeDineiro().send({from: '0x7EeDAD269b19C6D3ebF4438E6Bf9c9DDeed89cC5', value: 17562100000000000000 });
             console.log(receipt);
         }
-        
+    
         document.getElementById('run').addEventListener('click', run);
 
+
+
+        async function run2(){
+
+        const web3 = new Web3('HTTP://127.0.0.1:7545');
+
+        let abi = [ { "inputs": [], "stateMutability": "nonpayable", "type": "constructor" }, { "inputs": [], "name": "endereco", "outputs": [ { "internalType": "address", "name": "", "type": "address" } ], "stateMutability": "view", "type": "function" }, { "inputs": [], "name": "recebeDineiro", "outputs": [], "stateMutability": "payable", "type": "function" } ];
+        let endereco = '0x9f13e9878A3D2Ced1A830CDEbaa959A28e1223C2';
+        
+        const contrato = web3.eth.Contract(abi,endereco);
+
+        let receipt = await contrato.methods.recebeDineiro().send({from: '0x7EeDAD269b19C6D3ebF4438E6Bf9c9DDeed89cC5', value: 17562100000000000000 });
+        console.log(receipt);
+        
+        }
+
+        document.getElementById('run2').addEventListener('click',run2);
     </script>
 </body>
 </html>
