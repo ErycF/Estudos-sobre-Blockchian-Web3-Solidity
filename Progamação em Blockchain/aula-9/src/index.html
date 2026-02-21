@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 9 - Web3</title>
+    <script src="../node_modules/web3/dist/web3.min.js"></script>
+</head>
+<body>
+    <button id="run">Run</button>
+    <script>
+        const web3 = new Web3('HTTP://127.0.0.1:7545');
+
+        let abi = [ { "inputs": [], "stateMutability": "nonpayable", "type": "constructor" }, { "inputs": [], "name": "endereco", "outputs": [ { "internalType": "address", "name": "", "type": "address" } ], "stateMutability": "view", "type": "function" }, { "inputs": [], "name": "recebeDineiro", "outputs": [], "stateMutability": "payable", "type": "function" } ];
+        let endereco = '0xfa8ebd62aeafffb231c29c94ca319575dba70751';
+        
+        const contrato = await web3.eth.Contract(abi,endereco);
+
+        async function run() {
+            
+            let receipt = await contrato.methods.recebeDineiro().send({from: '0xA3c0176d7238D5EbfC89cF659371AC5174aEdE7c', value: 17562100000000000000 });
+            console.log(receipt);
+        }
+        
+        document.getElementById('run').addEventListener('click', run);
+
+    </script>
+</body>
+</html>
