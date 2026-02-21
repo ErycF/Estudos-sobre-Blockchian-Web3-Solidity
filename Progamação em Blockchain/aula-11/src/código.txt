@@ -1,0 +1,7 @@
+Contas, carteiras e o Metamask
+
+let contas = await web3.eth.getAccounts() - Pegas as contas pelo truffle
+
+Conectar com o Ganache: HTTP://127.0.0.1:7545 | Com a Metamesk: window.ethereum
+
+Conectar com a Metamask: await ethereum.request({method: 'eth_requestAccounts' })

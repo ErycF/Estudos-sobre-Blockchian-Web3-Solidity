@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 11 - Web3</title>
+    <script src="../node_modules/web3/dist/web3.min.js"></script>
+</head>
+<body>
+    <button id="run">Run</button>
+    <button id="web3">Web 3</button>
+    <button id="conctar">Conectar</button>
+
+    <script>
+        const web3 = new Web3(window.ethereum); // http://127.0.0.1:7545
+
+        async function run() {
+            let  contas = await web3.eth.getAccounts();
+            console.log(contas);            
+        }
+
+        async function web_3() {
+            console.log(web3);
+        }
+
+        async function conectar() {
+           let resultado = await ethereum.request({method: 'eth_requestAccounts' });
+           console.log(resultado);
+        }
+
+        document.getElementById('run').addEventListener('click',run);
+        document.getElementById('web3').addEventListener('click',web_3);
+        document.getElementById('conctar').addEventListener('click',conectar);
+    </script>
+</body>
+</html>
