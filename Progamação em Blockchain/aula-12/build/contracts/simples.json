@@ -4442,12 +4442,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x7C4715639bE8E44Ea0427a16660fC46a60Ad8dD8",
-      "transactionHash": "0x9cd1c9d8c1909f99f0e98c810cf39fd9537f7801106da738b7d343a09c8b91b9"
+      "address": "0xF46B0a399cBA819229D129D5f351b97e97B4B6a7",
+      "transactionHash": "0xd33d0d4b59575de1cbaff0f85a84ee162ac356bc83fd5655e465548ead1dbf28"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2026-02-23T01:57:25.939Z",
+  "updatedAt": "2026-02-23T16:09:25.502Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

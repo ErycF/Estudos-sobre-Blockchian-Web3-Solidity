@@ -15,14 +15,14 @@
         const web3 = new Web3(window.ethereum);
         
         var abi = [     {       "inputs": [],       "name": "name",       "outputs": [         {           "internalType": "string",           "name": "",           "type": "string"         }       ],       "stateMutability": "view",       "type": "function",       "constant": true     },     {       "inputs": [],       "name": "getName",       "outputs": [         {           "internalType": "string",           "name": "",           "type": "string"         }       ],       "stateMutability": "view",       "type": "function",       "constant": true     },     {       "inputs": [         {           "internalType": "string",           "name": "_name",           "type": "string"         }       ],       "name": "setName",       "outputs": [],       "stateMutability": "nonpayable",       "type": "function"     }   ];
-        var endereco = '0x7C4715639bE8E44Ea0427a16660fC46a60Ad8dD8';
+        var endereco = '0xF46B0a399cBA819229D129D5f351b97e97B4B6a7';
         
         let contrato = new web3.eth.Contract(abi,endereco);
 
         async function conectar() {
             let conectar = await ethereum.request({method: 'eth_requestAccounts'});
             let contas = await web3.eth.getAccounts();
-            web3.eth.getCode('0x7C4715639bE8E44Ea0427a16660fC46a60Ad8dD8').then(console.log)
+            web3.eth.getCode('0xF46B0a399cBA819229D129D5f351b97e97B4B6a7').then(console.log)
             console.log(conectar);
             console.log(contas);
         }
