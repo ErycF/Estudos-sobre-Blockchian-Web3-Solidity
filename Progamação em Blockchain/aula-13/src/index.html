@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 13 - Web3 </title>
+    <script src="../node_modules/web3/dist/web3.min.js"></script>
+</head>
+<body>
+    <button id="conectar">Conectar</button>
+    <button id="pegarRede">Rede local</button>
+    <button id="m_rede">Verificar se mudou de rede</button>
+    <button id="nome">Busca nome</button>
+    
+    <script>
+
+        const web3 = new Web3(window.ethereum);
+
+        var abi = [     {       "inputs": [],       "name": "name",       "outputs": [         {           "internalType": "string",           "name": "",           "type": "string"         }       ],       "stateMutability": "view",       "type": "function",       "constant": true     },     {       "inputs": [],       "name": "getName",       "outputs": [         {           "internalType": "string",           "name": "",           "type": "string"         }       ],       "stateMutability": "view",       "type": "function",       "constant": true     },     {       "inputs": [         {           "internalType": "string",           "name": "_name",           "type": "string"         }       ],       "name": "setName",       "outputs": [],       "stateMutability": "nonpayable",       "type": "function"     }   ];
+        var endereco = '0x0dC9b10F211FB79CBD934fD2007a6A385B6A98dE';
+
+        var contrato = new web3.eth.Contract(abi,endereco);
+
+        async function conectar() {
+
+            if (window.ethereum){
+
+                let contas = await ethereum.request({method: 'eth_accounts'});
+                console.log('Metamesk conectada com a conta:',contas);    
+            }else{
+                alert('Metamask não está instalado')
+            }
+        }
+
+        async function rede() {
+            let rede = await ethereum.request({method: 'eth_chainId'});
+            console.log('Sua Rede logada é:',rede);
+            
+        }
+
+        async function Mrede() {
+            if (window.ethereumhe){
+
+                ethereum.on('ChainChanged', () => {window.location.reload()}); // quando muda de rede, irar atualizar
+            }else{
+                console.log('Não teve mudanção de rede');
+            }
+        }
+
+        async function getName() {
+            let name = await web3.contrato.getName().call();
+            console.log(name);
+        }
+
+        document.getElementById('conectar').addEventListener('click',conectar);
+        document.getElementById('pegarRede').addEventListener('click',rede);
+        document.getElementById('m_rede').addEventListener('click', Mrede);
+        document.getElementById('nome').addEventListener('click',getName);
+
+    </script>
+</body>
+</html>

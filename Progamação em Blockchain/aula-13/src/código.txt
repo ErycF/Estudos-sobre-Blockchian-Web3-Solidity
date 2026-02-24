@@ -1,0 +1,8 @@
+Contrato: '0x0dC9b10F211FB79CBD934fD2007a6A385B6A98dE'
+
+Antes de colocar código, devemos verificar se a Metamesk esta instalada no navegador
+
+Não e necessario ultilizar a biblioteca Web3, porem ela ajuda
+
+
+
