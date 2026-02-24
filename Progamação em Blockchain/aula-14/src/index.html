@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 14 - Web3</title>
+    <script src="../node_modules/web3/dist/web3.min.js"></script>
+</head>
+<body>
+    <button id="conectar">Conectar</button>
+    <button id="getName">Busca Nome</button>
+    <button id="setName">Escrever Nome</button>
+    <button id="getIdade">Busca Idade</button>
+    <button id="setIdade">Escrever Idade</button>
+    <script>
+        const web3 = new Web3(window.ethereum);
+
+        var abi = [ { "inputs": [], "name": "name", "outputs": [ { "internalType": "string", "name": "", "type": "string" } ], "stateMutability": "view", "type": "function", "constant": true }, { "inputs": [], "name": "getName", "outputs": [ { "internalType": "string", "name": "", "type": "string" } ], "stateMutability": "view", "type": "function", "constant": true }, { "inputs": [ { "internalType": "string", "name": "_name", "type": "string" } ], "name": "setName", "outputs": [], "stateMutability": "nonpayable", "type": "function" }, { "inputs": [], "name": "getIdade", "outputs": [ { "internalType": "uint256", "name": "", "type": "uint256" } ], "stateMutability": "view", "type": "function", "constant": true }, { "inputs": [ { "internalType": "uint256", "name": "_idade", "type": "uint256" } ], "name": "setIdade", "outputs": [], "stateMutability": "nonpayable", "type": "function" } ];
+        var endereco = '0x169648001447d9Cf04d8cb6F881F09b13082AaAC';
+
+        var contrato = new web3.eth.Contract(abi,endereco);
+
+        console.log(contrato);
+
+        async function getName(){
+            let name = await contrato.methods.getName().call();
+            console.log(name);
+        }
+        document.getElementById('getName').addEventListener('click',getName);
+
+        async function conectar() {
+            let conectar = await ethereum.request({method: 'eth_requestAccounts'});
+            console.log(conectar);
+        }
+        document.getElementById('conectar').addEventListener('click',conectar);
+
+        async function setName() {
+            let contas = await web3.eth.getAccounts();
+            let conta = contas[0]
+            let name = await contrato.methods.setName('Eryc').send({from: conta });
+            console.log(name);
+        }
+        document.getElementById('setName').addEventListener('click',setName);
+
+        async function getIdade() {
+            let idade = await contrato.methods.getIdade().call();
+            console.log(idade);
+        }
+        document.getElementById('getIdade').addEventListener('click',getIdade);
+
+        async function setIdade() {
+            let contas = await web3.eth.getAccounts();
+            let conta = contas[0]
+            let idade = await contrato.methods.setIdade('19').send({from: conta});
+            console.log(idade);
+        }
+        document.getElementById('setIdade').addEventListener('click',setIdade);
+    </script>
+</body>
+</html>
