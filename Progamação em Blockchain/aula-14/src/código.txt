@@ -1,1 +1,7 @@
 Endereço do contrato: '0x309b6CFC27E1351c091140873B9F1022AB62321F'
+
+Integrando cliente, MetaMask e blockchain.
+
+Integrar nosso cliente em JavaScript com a blockchain através da MetaMask.
+
+1. Primeiro passo e ver se o MetaMesk está estalada;

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 14 - Web3</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div {
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+        }
+        .btnConectar{
+            display: none;
+        }
+        #btnConectar{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="conectar">
+        <button id="btnConectar" style="display: nome;">Conectar ao MestaMesk</button>
+    </div>
+    <div>
+        Nome: <input id="inputName" type="text">
+    </div>
+    <div>
+        <button id="alterar">Alterar Nome</button>
+    </div>
+    <div id="nome">&nbsp;</div>
+
+    <script>
+        
+        var provider = window.ethereum;
+
+        async function run() {
+            // Para ver se a MetaMesk esta instalada;
+            if(!provider){
+            document.getElementById('conectar').innerHTML = 'Por favor, instale a MetaMesk';
+           }else{
+            // Para ver se alguma conta esta conectada;
+                let contas = await provider.request({methods: 'eth_accounts'});
+                
+                if(contas.length == 0){
+                    document.getElementById('btnConectar').style.display = 'block';
+                    document.getElementById('btnConectar').addEventListener('click', conectarMM);
+                }else{
+                    document.getElementById('conectar').innerHTML = contas[0];
+                }
+           }
+        }
+
+        async function conectarMM() {
+            let contas = await provider.request({methods: 'eth_requestAccounts'});
+            document.getElementById('conectar').innerHTML = contas[0];
+            console.log(contas);
+        }
+
+        run();
+
+
+    </script>
+</body>
+</html>
