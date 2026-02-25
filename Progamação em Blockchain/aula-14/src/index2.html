@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 14 - Web3</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@4.16.0/dist/web3.min.js"></script>
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
@@ -23,13 +24,13 @@
 </head>
 <body>
     <div id="conectar">
-        <button id="btnConectar" style="display: nome;">Conectar ao MestaMesk</button>
+        <button id="btnConectar" style="display: none;">Conectar ao MestaMesk</button>
     </div>
     <div>
         Nome: <input id="inputName" type="text">
     </div>
     <div>
-        <button id="alterar">Alterar Nome</button>
+        <button id="alterar" style="disply: nome">Alterar Nome</button>
     </div>
     <div id="nome">&nbsp;</div>
 
@@ -37,30 +38,57 @@
         
         var provider = window.ethereum;
 
+        var abi = [ { "inputs": [], "name": "name", "outputs": [ { "internalType": "string", "name": "", "type": "string" } ], "stateMutability": "view", "type": "function", "constant": true }, { "inputs": [], "name": "getName", "outputs": [ { "internalType": "string", "name": "", "type": "string" } ], "stateMutability": "view", "type": "function", "constant": true }, { "inputs": [ { "internalType": "string", "name": "_name", "type": "string" } ], "name": "setName", "outputs": [], "stateMutability": "nonpayable", "type": "function" }, { "inputs": [], "name": "getIdade", "outputs": [ { "internalType": "uint256", "name": "", "type": "uint256" } ], "stateMutability": "view", "type": "function", "constant": true }, { "inputs": [ { "internalType": "uint256", "name": "_idade", "type": "uint256" } ], "name": "setIdade", "outputs": [], "stateMutability": "nonpayable", "type": "function" } ];
+        var endereco = '0x169648001447d9Cf04d8cb6F881F09b13082AaAC';
+
+        var web3 = new Web3(provider);
+        var contrato = new web3.eth.Contract(abi,endereco);
+
         async function run() {
             // Para ver se a MetaMesk esta instalada;
             if(!provider){
             document.getElementById('conectar').innerHTML = 'Por favor, instale a MetaMesk';
            }else{
             // Para ver se alguma conta esta conectada;
-                let contas = await provider.request({methods: 'eth_accounts'});
+                let contas = await provider.request({method: 'eth_accounts'});
                 
                 if(contas.length == 0){
                     document.getElementById('btnConectar').style.display = 'block';
                     document.getElementById('btnConectar').addEventListener('click', conectarMM);
                 }else{
                     document.getElementById('conectar').innerHTML = contas[0];
+                    GetName();
+                    conta = contas[0];
+                    document.getElementById(alteraNome).addEventListener('click',alteraNome);
                 }
            }
         }
-
+        
         async function conectarMM() {
-            let contas = await provider.request({methods: 'eth_requestAccounts'});
+            let contas = await provider.request({method: 'eth_requestAccounts'});
             document.getElementById('conectar').innerHTML = contas[0];
             console.log(contas);
+            conta = contas[0];
         }
 
         run();
+
+        async function GetName() {
+            let nome = await contrato.methods.GetName().call();
+            document.getElementById('nome').innerHTML = nome;
+            console.log(nome);
+        }
+
+        document.getElementById('').addEventListener('',GetName);
+
+        async function alteraNome(conta) {
+            let contas = await provider.request({method: 'eth_requestAccounts'});
+            document.getElementById('conectar').innerHTML = contas[0];
+
+            let novoNome = document.getElementById('inputName').value;
+
+            let recibo = await contrato.methods.setName().send({contas})
+        }
 
 
     </script>

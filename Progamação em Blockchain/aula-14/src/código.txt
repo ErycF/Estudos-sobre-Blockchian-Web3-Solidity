@@ -5,3 +5,7 @@ Integrando cliente, MetaMask e blockchain.
 Integrar nosso cliente em JavaScript com a blockchain através da MetaMask.
 
 1. Primeiro passo e ver se o MetaMesk está estalada;
+
+Podemos ultilizar a biblioteca web3 de outra forma, como CDM: https://cdn.jsdelivr.net/npm/web3@4.16.0/dist/web3.min.js
+
+
