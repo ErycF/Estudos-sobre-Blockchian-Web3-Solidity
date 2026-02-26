@@ -1,0 +1,5 @@
+truffle dashboard
+
+truffle migrate --network dashboard
+
+Tem que tomar cuidado sbre a rede, a troca de rede 

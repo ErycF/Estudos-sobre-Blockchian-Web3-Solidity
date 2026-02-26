@@ -30,7 +30,7 @@
         Nome: <input id="inputName" type="text">
     </div>
     <div>
-        <button id="alterar" style="disply: nome">Alterar Nome</button>
+        <button id="alterar" style="display: block;">Alterar Nome</button>
     </div>
     <div id="nome">&nbsp;</div>
 
@@ -59,7 +59,8 @@
                     document.getElementById('conectar').innerHTML = contas[0];
                     GetName();
                     conta = contas[0];
-                    document.getElementById(alteraNome).addEventListener('click',alteraNome);
+                    document.getElementById('alterar').addEventListener('click',alteraNome);
+                    document.getElementById('alterar').style.display = 'block';
                 }
            }
         }
@@ -87,7 +88,9 @@
 
             let novoNome = document.getElementById('inputName').value;
 
-            let recibo = await contrato.methods.setName().send({contas})
+            let recibo = await contrato.methods.setName().send({contas});
+            console.log(recibo);
+            GetName();
         }
 
 

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="rede" >Rede</button>
+
+    <script>
+        const provader = window.ethereum;
+
+        async function conectar() {
+            let conectar = new Web3(provader);
+            console.log(conectar);
+        }
+
+        async function rede() {
+            let chainId = await  provader.request({method: 'eth_chainId'});
+            console.log(chainId);
+            if(chainId != 0x539){
+                alert('Conectar com a rede certa!');
+            }
+        }
+
+        document.getElementById('rede').addEventListener('click', rede);
+    </script>
+</body>
+</html>
