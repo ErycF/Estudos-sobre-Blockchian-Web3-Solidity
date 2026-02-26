@@ -1,0 +1,126 @@
+ Aula - 4
+
+1.Código para você se lingar com a MetaMesk ou Ganache:
+
+ - const web3 = new Web3("http://127.0.0.1:8545");
+ - const web3 = new Web3(window.ethereum);
+
+2.Bloco minerado e o número do bloco: 
+
+ - let minerando = await web3.eth.isMining();
+ - let bloco = await web3.eth.getBlockNumber();
+
+ Aula - 6
+
+4.Nessa aula vemos que não é necessario usar a biblioteca Web3:
+
+ - let transaction = {
+        from: // Endereço da conta
+        data: // Bytecode do contrato
+        gas: // Gás hexadecimal
+    };
+
+5.Para ver quanto gás e necessario para o contrato
+
+ - let gas = await web3.eth.estimateGas(transaction);
+
+6.Para ver o recipo do contrato:
+
+ - let receipt = await web3.eth.sendTransaction(transaction);
+
+ Aula - 7
+
+7.ara pegar a bliblioteca como arquivo e sem arquivo
+
+ - <script src="../node_modules/web3/dist/web3.min.js"></script>
+
+ - <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+
+ Aula - 8
+
+Aqui nós usamos a biblioteca
+
+8.Para pegar o contrato e preciso da abi, e do endereço:
+
+ - let endereco = // Endereço do contrato;
+ - let abi = // abi do contrato;
+
+ - let contrato = new web3.eth.Contract(abi,endereco);
+
+9. Para da uma call:
+
+- let nome = await contrato.methods.getName().call();
+
+10.Para fazer uma transação:
+
+ - let setNome = await contrato.methods.mudaNome('Eryc').send({from: '' // Endereço da conta });
+
+11.Para conseguir o encode:
+
+ - let encode = contrato.methods.mudaNome('eryc').encodeABI();
+
+ Aula - 11
+    Aparti de agora é importande porque nós podemos usar a biblioteca web3, que facilita, porem, podemos usar os methodos RPC que não é necessario usar a biblioteca. e tambem, o methods com S é usado para a biblioteca, o sem S e da metamesk rpc.
+
+12.Para pegar a conta da MetaMesk:
+
+ - let  contas = await web3.eth.getAccounts();
+
+13.Para conectar sua carteira da MetaMesk (ultilizando o metodo RPC da proprio MestMesk):
+
+ - let resultado = await ethereum.request({method: 'eth_requestAccounts' });
+
+ Aula - 12
+
+14.Verifica se um endereço específico é CONTRATO: 
+
+ - web3.eth.getCode(// Endereço de um contrato ou de uma conta ).then(console.log);
+
+15.Cuidado porque se estiver muitas contas é necessa que voce defina uma variavel para ela: 
+
+ - let contas = await web3.eth.getAccounts();          
+ - let conta = contas[0];
+ - let nome = await contrato.methods.setName('Eryc').send({from: conta});
+
+ Aula - 13
+
+16.Verificar/pegar a rede do usuario:
+
+ - let rede = await ethereum.request({method: 'eth_chainId'});
+
+17.Caso o usuario muda de rede podemos saber com: 
+
+ - ethereum.on('ChainChanged', () => {window.location.reload()}); // quando muda de rede, irar atualizar
+
+ Aula - 14
+
+18.Da para colocar o window.ethereum em uma variavel:
+
+ - let provider = window.ethereum;
+
+19.Exemplo de uma conecção: 
+
+ - async function run() {
+
+            // Para ver se a MetaMesk esta instalada;
+            if(!provider){
+
+                document.getElementById('conectar').innerHTML = 'Por favor, instale a MetaMesk';
+           }else{
+
+            // Para ver se alguma conta esta conectada;
+                let contas = await provider.request({method: 'eth_accounts'});
+
+ Aula - 15
+
+20.Outra verificação de mudança de rede:
+
+ - async function rede() {
+
+            let chainId = await  provader.request({method: 'eth_chainId'});
+            console.log(chainId);
+
+            if(chainId != 0x539){
+                alert('Conectar com a rede certa!');
+            }
+        }
