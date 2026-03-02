@@ -4,8 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test</title>
+    <script src="../node_modules/web3/dist/web3.min.js"></script>
 </head>
 <body>
-    
+    <script>
+        const web3 = new Web3(window.ethereum);
+
+        const abi = [ { "inputs": [], "name": "age", "outputs": [ { "internalType": "uint256", "name": "", "type": "uint256" } ], "stateMutability": "view", "type": "function", "constant": true }, { "inputs": [], "name": "name", "outputs": [ { "internalType": "string", "name": "", "type": "string" } ], "stateMutability": "view", "type": "function", "constant": true }, { "inputs": [], "name": "getName", "outputs": [ { "internalType": "string", "name": "", "type": "string" } ], "stateMutability": "view", "type": "function", "constant": true }, { "inputs": [], "name": "getAge", "outputs": [ { "internalType": "uint256", "name": "", "type": "uint256" } ], "stateMutability": "view", "type": "function", "constant": true }, { "inputs": [ { "internalType": "string", "name": "_name", "type": "string" } ], "name": "setName", "outputs": [], "stateMutability": "nonpayable", "type": "function" }, { "inputs": [ { "internalType": "uint256", "name": "_age", "type": "uint256" } ], "name": "setage", "outputs": [], "stateMutability": "nonpayable", "type": "function" } ];
+        const endereco = '0x485c87b1ab414F4a4E758990CB02EB693D4E00c9';
+
+        const contrato = new web3.eth.Contract(abi,endereco);
+
+        async function conectar() {
+            let conectar = await ethereum.request({method: 'eth_getAccounts'});
+            console.log(conectar);
+        }
+    </script> 
 </body>
 </html>
