@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 06</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 3px 3px 3px 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tratamento de dados</h1>
+    <p> <strong>parseInt</strong>: usado para fazer tranformação de dados, números inteiros.</p>
+    <p><strong>parseFloat</strong>: Usado para fazer transformação de dados, porém decimais.</p>
+    <p><strong>Number</strong>: Pode ser usado somente Number, o JavaScript se vira.</p>
+    <p><strong>String(n)</strong>: Uma String para Number.</p>
+    <p><strong>n.toString()</strong>: Uma número em uma string.</p>
+    <h2>Formatoss de String</h2>
+    <p><strong>s.length</strong>: Quantos caracteres a string tem.</p>
+    <p><strong>s.toUpperCase</strong>: Tudo para maiusculo.</p>
+    <p><strong>s.toLowerCase</strong>: Tudo para minusculo.</p>
+    <p><strong>documeent.write()</strong>: Escrever na tela</p>
+    <p><Strong>s.toFixed</Strong>: Para casa decimal</p>
+    <p><strong>replace(".",",")</strong>: para trocar um ponto por virgula</p>
+    <script>
+
+        var n1 = Number.parseInt(window.prompt("Sua idade:"))
+        var n2 = Number.parseInt(window.prompt("Seu ano Atual:"))
+        var resultado = n2 - n1
+        window.alert(`Sua idade é ${n1} o ano atual é ${n2} e você nasceu em: ${resultado}`)
+        var nome = window.prompt("Seu nome:")
+        document.write(`Seu nome é ${nome} e tem ${nome.length} letras.`)
+ 
+
+    </script>
+</body>
+</html>
