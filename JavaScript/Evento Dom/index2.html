@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento Dom</title>
+    <style>
+
+        div#area{
+            font: normal 15pt arial;
+            background-color: rgb(7, 7, 7);
+            color: white;
+            width: 200px;
+            height: 200px;
+            border-radius: 25px;
+            text-align: center;
+            line-height: 200px;
+            border-color: black;
+        }
+    </style>
+</head>
+<body>
+    
+     <div id="area">Interagir</div> 
+
+    <script>
+
+        var div = document.getElementById('area')
+
+        div.addEventListener('click', clicar)
+        div.addEventListener('mouseenter', entrou)
+        div.addEventListener('mouseout', sair)
+
+        function clicar(){
+
+            div.style.backgroundColor = 'red'
+            div.innerText = 'Clicou!'
+        }
+
+        function entrou(){
+
+            div.style.backgroundColor = 'blue'
+            div.innerText = 'Entrou'
+            
+        }
+
+        function sair(){
+
+            div.style.backgroundColor = 'black'
+            div.innerText = 'Saiu'
+        }
+
+    </script>
+
+</body>
+</html>

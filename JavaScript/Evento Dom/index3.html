@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evendo Dom</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    
+    <h1>Somar valor</h1>
+    <input type="number" id="caixa1"> + <input type="number" id="caixa2"> 
+    <input type="button" value="Somar" onclick="somar()">
+    <div id="div">resultado: <p id="res"></p></div>
+
+    <script>
+
+        function somar(){
+
+            var caixa1 = document.getElementById('caixa1')
+            var caixa2 = document.getElementById('caixa2')
+
+            var n1 = Number(caixa1.value)
+            var n2 = Number(caixa2.value)
+
+            var resultado = n1 + n2
+
+            var res = document.getElementById('res')
+            res.innerHTML = `A soma entre ${n1} e ${n2} é ${resultado}`
+        }
+    </script>
+</body>
+</html>

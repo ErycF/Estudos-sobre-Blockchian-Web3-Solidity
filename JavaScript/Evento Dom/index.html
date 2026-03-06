@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evendo Dom</title>
+    <style>
+        h1{
+            color: forestgreen;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Evento Dom</h1>
+
+    <p><code>document.getElementsByTagName('p')[0]</code> -> ('p') qual a tag; [0] numeração dela.</p>
+
+    <p id="msg"><code>document.getElementById('msg')</code> -> Por ID</p>
+
+    <p class="msg2"><code>document.getElementsByClassName('msg2')</code> -> Por Class </p>
+
+    <p id="msg3"><code>document.querySelector('p#msg3')</code> -> Por querySelector; por CSS</p>
+
+    <p class="msg4"><code>document.querySelector('p.msg4')</code> -> Por querySelector; por Class</p>
+
+
+    <script>
+
+        var p1 = document.getElementsByTagName('p')[0]
+
+        var p2 = document.getElementById('msg')
+
+        var p3 = document.getElementsByClassName('msg2')
+
+        var p4 = document.querySelector('p#msg3')
+
+        var p5  = document.querySelector('p.msg4')
+
+        p1.style.color = 'blue'
+
+        p2.style.color = 'chocolate'
+
+        p3[0].style.color = 'darkcyan'
+
+        p4.style.color = 'darkslateblue'
+
+        p5.style.color = 'forestgreen'
+
+    </script>
+</body>
+</html>
