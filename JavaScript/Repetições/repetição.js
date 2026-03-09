@@ -9,6 +9,7 @@ while(i <= 10){
 i = 1 
 console.log('---------------------------')
 
+// Estrutura derepetição do_while
 do {
     console.log(`Repetição do tipo Do: ${i}`)
     i++
