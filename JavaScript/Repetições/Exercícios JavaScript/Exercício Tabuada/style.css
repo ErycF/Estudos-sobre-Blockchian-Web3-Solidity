@@ -1,6 +1,6 @@
 body{
     background: rgb(136, 212, 116);
-    font: normal 15 Arial;
+    font: normal 15px monospace;
 }
 
 header{
@@ -20,6 +20,12 @@ section{
 div{
     text-align: center;
     padding: 15px;
+}
+
+select{
+    width: 150px;
+    font-size: 15px;
+    padding: 5px;
 }
 
 footer{
