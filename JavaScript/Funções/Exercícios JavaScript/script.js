@@ -1,19 +1,31 @@
 let caixa = document.getElementById('caixa')
-let num = Number(caixa.value)
 let lista = document.getElementById('tabela')
 let res = document.getElementById('res')
 
-let valores =  []
-valores.push(num)
+let valores = []
+
+function isNumero(n){
+    if(n >= 1 && n <= 100){
+        return true
+    }else{
+        return false
+    }
+}
+
+function inLista(n, l){
+    if(l.indexOf(n) != -1){
+        return true
+    }else{
+        return false
+    }
+}
 
 function adicionar(){
-    console.log(num)
+    let num = Number(caixa.value)
 
-    if(num == 0){
-        alert('[ERRO] Coloque um número!')
+    if(isNumero(num) && !inLista(num, valores)){
+        alert('tudo ok')
     }else{
-        for( let i = num; i < num.length; i++){
-            let numV = [i]
-        }
+        alert('Valor invalido ou já encontrado na lista')
     }
 }
