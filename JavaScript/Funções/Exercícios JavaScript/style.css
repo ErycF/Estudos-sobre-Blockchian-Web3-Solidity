@@ -37,3 +37,9 @@ p, p>a{
 #tabela{
     border-radius: 3px;
 }
+
+#res > p{
+    font-weight: 500;
+    padding-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
