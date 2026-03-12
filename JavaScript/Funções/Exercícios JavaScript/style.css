@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    margin: 7px;
+    padding: 7px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header > h1{
+    text-align: center;
+}
+
+main{
+    background-color: rgb(123, 189, 218);
+    width: 500px;
+    margin: auto;
+    border: solid 1px;
+    border-radius: 17px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.568);
+}
+div{
+    align-items: center;
+}
+
+p, p>a{
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+
+#tabela{
+    border-radius: 3px;
+}
